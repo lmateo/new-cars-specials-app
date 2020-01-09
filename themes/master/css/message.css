@@ -1,0 +1,259 @@
+/* == Messge == */
+.wojo.message {
+  position: relative;
+  min-height: 18px;
+  margin: 1em 0;
+  height: auto;
+  background-color: #FFFFFF;
+  padding: 1em;
+  line-height: 1.33;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: opacity .1s ease, color .1s ease, background .1s ease, 0 .1s ease;
+  transition: opacity .1s ease, color .1s ease, background .1s ease, box-shadow .1s ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: .188em
+}
+.wojo.message:first-child {
+  margin-top: 0
+}
+.wojo.message:last-child {
+  margin-bottom: 0
+}
+/* == Content == */
+.wojo.message .header {
+  margin: 0;
+  font-size: 1.5em;
+  font-family: 'WojoSansThin';
+}
+.wojo.message p {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 1em
+}
+.wojo.message p:first-child {
+  margin-top: 0
+}
+.wojo.message p:last-child {
+  margin-bottom: 0
+}
+.wojo.message .header + p {
+  color: #373C5A;
+}
+.wojo.message .header + p.white {
+  color: #fff;
+}
+.wojo.message > :first-child {
+  margin-top: 0
+}
+.wojo.message > :last-child {
+  margin-bottom: 0
+}
+.wojo.message ul.list {
+  opacity: 0.85;
+  list-style-position: inside;
+  margin: .2em 0;
+  padding: 0
+}
+.wojo.message ul.list li {
+  position: relative;
+  list-style-type: none;
+  margin: 0 0 .3em 1em;
+  padding: 0
+}
+.wojo.message ul.list li:before {
+  position: absolute;
+  content: '\2022';
+  top: -.05em;
+  left: -.8em;
+  height: 100%;
+  vertical-align: baseline;
+  opacity: 0.5
+}
+.wojo.message ul.list li:first-child {
+  margin-top: 0
+}
+/* == Notices == */
+#wojo-overlay {
+  position: fixed;
+  top: 45%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  z-index: 9999;
+}
+.wojo.notice {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-top: 1px;
+  margin-bottom: 0;
+  background-color: #333645;
+  display: table;
+}
+.wojo.notice i.icon:not(.close),
+.wojo.notice .content {
+  display: table-cell;
+  padding: 1em;
+  vertical-align: middle
+}
+.wojo.notice i.icon:not(.close) {
+  font-size: 2em;
+  width: 2em;
+  padding: 0;
+  text-align: center;
+}
+.wojo.notice .content {
+  position: relative
+}
+.wojo.notice span {
+  font-size: 1em;
+  display: block;
+  font-family: 'WojoSansBold';
+}
+.wojo.notice p {
+  margin-top: 0;
+}
+.wojo.notice a.notice-close {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.wojo.notice:hover a.notice-close {
+  opacity: 1;
+}
+.wojo.notice i.icon.close {
+  color: rgba(255,255,255,0.8)
+}
+.wojo.notice.success {
+  color: #9ACA40;
+}
+.wojo.notice.info {
+  color: #1CA8DD
+}
+.wojo.notice.alert {
+  color: #FFCE54
+}
+.wojo.notice.error {
+  color: #fd1046
+}
+/* == Dismissable == */
+.wojo.message > .close.icon {
+  cursor: pointer;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  opacity: 0.7;
+  -webkit-transition: opacity .1s linear;
+  transition: opacity .1s linear
+}
+.wojo.message > .close.icon:hover {
+  opacity: 1
+}
+/* == Variations == */
+.wojo.icon.message {
+  display: table;
+  width: 100%
+}
+.wojo.icon.message > .icon:not(.close) {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 4em;
+  width: 1.5em;
+}
+.wojo.icon.small.message > .icon:not(.close) {
+  font-size: 1em;
+  width: 2em;
+  color: #fff;
+  text-align: left;
+  padding: 1em;
+  padding-right: 0;
+}
+.wojo.icon.basic.message > .icon:not(.close) {
+  color: auto;
+}
+.wojo.icon.message > .wojo.image {
+  display: table-cell;
+  vertical-align: middle;
+  width: 4em;
+}
+.wojo.icon.message > .wojo.image img {
+  display: inline-block;
+  width: 4em;
+}
+.wojo.icon.message > .icon + .content,
+.wojo.icon.message > .wojo.image + .content {
+  padding-left: 1em
+}
+.wojo.icon.message > .content {
+  display: table-cell;
+  vertical-align: middle
+}
+/* == Colors == */
+.wojo.black.message {
+  background-color: #2f323a;
+  color: #fff
+}
+.wojo.primary.message,
+.wojo.info.message {
+  background-color: #1CA8DD;
+  color: #fff
+}
+.wojo.secondary.message {
+  background-color: transparent;
+  border-bottom: 2px solid #DADDDE;
+  border-radius: 0;
+  padding-left: 0;
+  box-shadow: none;
+  margin-bottom: 2em;
+}
+.wojo.secondary.message .header {
+  color: #1F2228;
+  font-size: 2.500em;
+}
+.wojo.positive.message {
+  background-color: #9ACA40;
+  color: #fff
+}
+.wojo.alert.message {
+  background-color: #FFCE54;
+  color: #fff
+}
+.wojo.negative.message {
+  background-color: #fd1046;
+  color: #fff
+}
+.wojo.primary.message .header + p,
+.wojo.info.message .header + p,
+.wojo.positive.message .header + p,
+.wojo.negative.message .header + p,
+.wojo.alert.message .header + p,
+.wojo.black.message .header + p,
+.wojo.primary.icon.message > .icon:not(.close),
+.wojo.positive.icon.message > .icon:not(.close),
+.wojo.alert.icon.message > .icon:not(.close),
+.wojo.black.icon.message > .icon:not(.close),
+.wojo.negative.icon.message > .icon:not(.close) {
+  color: #fff;
+}
+.wojo.basic.message {
+  background-color: transparent;
+  color: #515258;
+  box-shadow: none
+}
+/* == Size == */
+.wojo.message {
+  font-size: 1em
+}
+.wojo.large.message {
+  font-size: 1.125em
+}
+.wojo.huge.message {
+  font-size: 1.5em
+}
+.wojo.massive.message {
+  font-size: 2em
+}

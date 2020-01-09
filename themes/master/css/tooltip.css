@@ -1,0 +1,122 @@
+/* == Tooltip == */
+.wojo-tooltip {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -999px;
+  left: -999px;
+  z-index: 99999990;
+  opacity: 0;
+  max-width:300px;
+  min-width:200px;
+  pointer-events: none;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.wojo-tooltip,
+.wojo-tooltip:after,
+.wojo-tooltip:before,
+.wojo-tooltip *,
+.wojo-tooltip *:after,
+.wojo-tooltip *:before {
+  box-sizing: border-box;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+.wojo-tooltip-visible {
+  opacity: 1;
+}
+.wojo-tooltip-content,
+.charts_tooltip {
+  background: #111111;
+  border-radius: .188em;
+  color: #ffffff;
+  display: block;
+  float: left;
+  font-size: 0.813em;
+  line-height:1.2;
+  margin: 0;
+  padding: .5em .85em;
+  position: relative;
+  text-align: center;
+  font-family: 'WojoSansLight';
+}
+.charts_tooltip { 
+   background:#fff;
+   border:1px solid #333645;
+   color:#333645;
+   border-radius: .183em;
+   padding:.85em;
+   opacity:.85
+}
+.wojo-tooltip-caret {
+  width: 0;
+  height: 0;
+  content: '';
+  display: block;
+  margin: 0;
+  position: absolute;
+}
+.wojo-tooltip-right .wojo-tooltip-content {
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.35);
+}
+.wojo-tooltip-right .wojo-tooltip-caret {
+  top: 0;
+  left: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #111111;
+}
+.wojo-tooltip-left .wojo-tooltip-content {
+  box-shadow: -1px 0 5px rgba(0, 0, 0, 0.35);
+}
+.wojo-tooltip-left .wojo-tooltip-caret {
+  top: 0;
+  right: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #111111;
+}
+.wojo-tooltip-top .wojo-tooltip-caret,
+.wojo-tooltip-bottom .wojo-tooltip-caret {
+  display: block;
+  float: none;
+  margin: 0 auto;
+}
+.wojo-tooltip-top .wojo-tooltip-content {
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.35);
+}
+.wojo-tooltip-top .wojo-tooltip-caret {
+  bottom: -5px;
+  left: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #111111;
+}
+.wojo-tooltip-bottom .wojo-tooltip-content {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+}
+.wojo-tooltip-bottom .wojo-tooltip-caret {
+  top: -5px;
+  left: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #111111;
+}
+.jqstooltip {
+  font-family: 'WojoSansExtraLight';
+  background: #111111;
+  border-radius: .214em;
+  color: #ffffff;
+  font-size: .750em;
+  text-align: center;
+  opacity:.85;
+  width:auto;
+}
+.jqsfield {
+  padding:5px;
+}

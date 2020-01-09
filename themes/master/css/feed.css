@@ -1,0 +1,109 @@
+/* == Activity Feed == */
+.wojo.feed a {
+  cursor: pointer;
+}
+.wojo.feed,
+.wojo.feed .event,
+.wojo.feed .label,
+.wojo.feed .content,
+.wojo.feed .extra {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* == Content == */
+.wojo.feed .event {
+  width: 100%;
+  display: table;
+  padding: 1em;
+}
+.wojo.feed .event:first-child {
+  border-top: 0px;
+}
+.wojo.feed .event:last-child {
+  margin-bottom: 1em;
+}
+/* == Event Label == */
+.wojo.feed .label {
+  width: 3em;
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+}
+.wojo.feed .label .icon {
+  font-size: 1rem;
+  padding: 0.5em;
+  margin: 0em;
+}
+.wojo.feed .label img {
+  width: 3em;
+  margin: 0em;
+  border-radius: 50em;
+}
+.wojo.feed .label + .content {
+  padding: 0.75em 1em 0em;
+}
+.wojo.feed .content {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+  word-wrap: break-word;
+}
+/* == Date == */
+.wojo.feed .content .date {
+  float: right;
+  padding-left: 1em;
+  color: #2A2D33;
+  font-size: .875em;
+}
+/* == Summary == */
+.wojo.feed .content .summary {
+  color: #515258;
+}
+.wojo.feed .content .summary img {
+  display: inline-block;
+  margin-right: 0.25em;
+  width: 4em;
+  border-radius: 500px;
+}
+/* == Additional Information == */
+.wojo.feed .content .extra {
+  margin: 1em 0em 0em;
+  padding: 0.5em 0em 0em;
+  color: #939599;
+}
+.wojo.feed .content .extra.images img {
+  display: inline-block;
+  margin-right: 0.25em;
+  width: 6em;
+}
+.wojo.feed .content .extra.text {
+  padding: 0.5em 1em;
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+}
+/* == Variations == */
+.wojo.small.feed {
+  font-size: 0.875em;
+}
+.wojo.small.feed .label img {
+  width: 2.5em;
+}
+.wojo.small.feed .label .icon {
+  font-size: 1rem;
+}
+.wojo.feed .event {
+  padding: 0.75em 0em;
+}
+.wojo.small.feed .label + .content {
+  padding: 0.5em 0.5em 0;
+}
+.wojo.small.feed .content .extra.images img {
+  width: 5em;
+}
+.wojo.small.feed .content .extra {
+  margin: 0.5em 0em 0em;
+}
+.wojo.small.feed .content .extra.text {
+  padding: 0.25em 0.5em;
+}

@@ -1,0 +1,3582 @@
+/*============================================================                                     
+
+
+Quirk Ford Specials Style Sheet
+
+Author: Stephen Mullen
+
+==============================================================*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Imported Fonts
+# Specials Styling
+# Responsive Specials Styling
+# Single Special Page Template
+# Specials Finance Calculator
+# Get Special Form
+# Thank You Page Template
+# Landing Page Template
+# Landing Page Mobile Styles
+# New 2017 Landing Page Styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Imported Fonts
+--------------------------------------------------------------*/
+/*commented out for now as the embedded fonts are now being included with the plugin*/
+/*@font-face {
+  font-family: 'Antenna-Light';
+  src: url('light.ttf'),
+  url('light.ttf')  format('truetype'),
+  url('Antenna-Light.eot') format('embedded-opentype');  
+}
+@font-face { 
+  font-family: 'Antenna-Bold';
+  src: url('bold.ttf'),  
+  url('bold.ttf')  format('truetype'), 
+  url('Antenna-Bold.eot') format('embedded-opentype');        
+}
+@font-face { 
+  font-family: 'Antenna-regular';
+  src: url('Regular.ttf'),  
+  url('Regular.ttf')  format('truetype'),
+  url('Antenna-Regular.eot') format('embedded-opentype');      
+}*/
+
+/*--------------------------------------------------------------
+# Specials Styling
+--------------------------------------------------------------*/
+/*color prep -eventually these will be generated via php instead of here*/
+.ncs_primary_color,
+.vlp_uppercase,
+.q_breadcrumbs,
+.q_breadcrumbs a,
+a.NCSMainPhone,
+.stickyPriceBarTitle {
+	color: #2d96cd;
+}
+.ncs_secondary_color,
+a.NCSMainPhone:hover {
+	color: #075c9a;
+}
+.ncs_secondary_bg_color,
+.vlp_specials_links_container .getInfo,
+.vlp_title_lines hr {
+	background-color: #075c9a;
+}
+.ncs_secondary_bg_color:hover,
+.vlp_specials_links_container .getInfo:hover {
+	background-color: #2d96cd;
+}
+.ncs_form_img_bg {
+	background-color: #0c9d1a;
+}
+.ncs_form_img_outline_color {
+	border-color: #0c9d1a;
+	color: #0c9d1a;
+}
+.ncs_form_img_outline_color a,
+.ncs_form_img_outline_color a:hover {	
+	color: #0c9d1a;
+}
+.ncs_primary_bgcolor {
+	background-color: #2d96cd;
+}
+.ncs_primary_bgcolor:hover {	
+	background-color: #075c9a;
+}
+.ncs_primary_link_color a,
+.ncs_primary_link_color a:visited,
+.ncs_primary_color a,
+.ncs_primary_color a:visited {
+	color: #2d96cd;
+}
+.ncs_primary_link_color a:hover,
+.ncs_primary_color a:hover {
+	color: #075c9a;
+}
+.ncs_btn_color {
+	background-color: #0c9d1a;
+}
+.ncs_btn_color:hover {
+	background-color: #13cc25;
+	outline: none;
+}
+.ncs_checker_color {
+	outline-color: #2d96cd !important;
+}
+.NCSOptionChecker input:hover + .ncs_checker_color, 
+.NCSOptionChecker input:focus + .ncs_checker_color {
+	outline-color: #02458a !important;
+}
+label.ncs_checker_color:after,
+.specialCTAs_singlePost_linkWrap {
+	border-color: #2d96cd !important;
+}
+.ncs_span_color span {
+	background-color: rgba(7,92,154, .6);
+}
+@media(max-width: 768px) {
+	.vlp_title_h2 h2 {
+		color: #075c9a !important;
+	}
+}
+/*end of color prep*/
+.qsPage {
+    /*display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;*/
+    display: block;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    font-weight:300;
+    /*font-size:1vw;*/
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: -.5px;
+    width: 100%;
+}
+.NCS {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    /*align-items: flex-start;
+    -webkit-align-items: flex-start;*/
+	margin: auto;
+	max-width: 1260px;
+	justify-content: center;
+}
+.qsPage div {
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica;
+}
+#q_overlay {
+    background: rgba(0,0,0,.5);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1030;
+} 
+#q_overlay_disc {
+    background: rgba(0,0,0,.7);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 105%;
+    z-index: 999999990;
+} 
+.qsPage a {
+	text-decoration: none;
+	box-shadow: none;
+    border: none;
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+}
+.qsContent {
+    width: 100%;
+    border: 2px solid #000;
+    margin:1%;
+    margin: 1.5vh 0;
+    /*position:relative;*/
+    background-color:#fff;
+}
+.IndivSpecial.qsContent {
+	width: 32.33%;
+    margin: 0 .5% 1% .5%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 280px;    
+    outline: 2px solid #000;
+}
+html[data-btype *= 'Edge'] .IndivSpecial.qsContent,
+html[data-btype *= 'Firefox'] .IndivSpecial.qsContent {
+	margin: 0 .5% 12px .5%;
+}
+.qsContent a {
+	text-decoration: none;
+	box-shadow: none;
+    border: none;
+}
+.qsContent a:hover {
+    text-decoration: none;
+}
+.qsContent div {
+    box-sizing: border-box;
+}
+.ncs_img {
+	position: relative;
+}
+html[data-btype *= 'rv:11.0'] .ncs_img,
+html[data-btype *= 'rv:11.0'] .qsNcsTitleLink {
+	flex-shrink: 0;
+}
+.ncs_img img{
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+.ncs_img span {
+	font-size: 1vw; 
+	font-size: 16px;   
+    position: relative;
+    margin-top:1.8%;
+    display: block;
+    padding: 0%;
+    color:#fff;
+    background-color: rgba(59, 59, 59, .6);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.qsContentBody,
+.qsInnerContent,
+.qsBottomHalf,
+.qsBottomMarqueeLinks,
+.qsBottomWrapperLinks {
+	display: flex;
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: column nowrap;    
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    height: 100%;
+}
+.qsInnerContent {	
+	padding: 0;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+.qstitle_savings {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    padding: 2%;
+    color: #000;
+}
+h3.ncs_model_title {
+    font-size: 18px !important;
+    margin: 0 !important;
+    line-height: 1.1 !important;
+}
+.ncs_top_title {
+    font-family: 'Antenna-Bold', 'Open Sans', Helvetica !important;
+}
+.qstitle_wrap {
+    width: 75%;
+}
+h3.ncs_model_title {
+	width: 100%;
+}
+.ncs_saving_up_to {
+    width: 25%;
+}
+.ncs_top_trim {
+    font-weight: 300;
+}
+.qs_bold {
+	font-weight: 900;
+	font-family: 'Antenna-Bold', 'Open Sans', Helvetica !important;
+}
+.qs_save_wrapper {
+    text-align: right;
+    line-height: 1.4;
+    font-size: 18px;
+}
+.qs_save_title {
+	line-height: 1.1;
+}
+.qs_save_value {
+	line-height: 1.5;
+}
+.qsLeaseContainer {
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 2%;
+    font-size: 16px;
+}
+html[data-btype *= 'rv:11.0'] .qsLeaseContainer {
+	flex-shrink: 0;
+}
+html[data-btype *= 'Firefox'] .qsLeaseContainer,
+html[data-btype *= 'Edge'] .qsLeaseContainer {
+	padding: 8px;
+}
+.qsNoLeaseOptions {
+    width: 100%;
+    text-align: center;
+    padding: 4.8% 0;
+}
+html[data-btype *= 'Firefox'] .qsNoLeaseOptions,
+html[data-btype *= 'Edge'] .qsNoLeaseOptions,
+html[data-btype *= 'rv:11.0'] .qsNoLeaseOptions {
+	padding: 13px 0;
+}
+.qsLeaseTitleContainer,
+.qsLeaseValWrap,
+.specialAPR,
+.salePricingBuyPrices,
+.qsLeaseValOuterWrap {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: column nowrap;    
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.qsLeaseTitleContainer {
+    text-align: center;
+    width: 30%;
+    line-height: 1.5;
+}
+a.discLink {
+    color: #808080;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+a.discLink:hover {
+	color: #808080;
+	text-decoration: underline;
+}
+.qsLeaseVals {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    width: 70%;
+}
+.qsLeaseValWrap {
+    text-align: center;
+}
+.qsLeaseValOuterWrap {
+    width: 50%;
+    margin: 2% 0;
+}
+html[data-btype *= 'rv:11.0'] .qsLeaseValOuterWrap {
+	margin: 2px 0;
+}
+.qsFinWrap {
+	width: 55%;
+}
+.qsFinWrapCalc {
+	width: 45%;
+}
+.qsLeaseValWrapTop {
+	line-height: 1;
+}
+span.ldSign {
+    vertical-align: top;
+    line-height: 1.3;
+    font-size: 18px;
+}
+span.qsLeaseValNumber {
+    font-size: 40px;
+}
+.qSinglePayDouble span.qsLeaseValNumber {
+    font-size: 32px;
+}
+span.qsLeaseMonth {
+	font-size: 16px;
+}
+.qsLeaseValWrapBottom {
+    font-size: 10px;
+    line-height: 1;
+}
+.NCSrightborder {
+    border-right: 2px solid #fff;    
+    padding: 0 2% 0 0;
+    margin-right: 2%;
+}
+.ncs_quirk_price_wrap {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;    
+    justify-content: center;
+    -webkit-justify-content: center;
+    padding: 2%;
+    margin-top: 2%;
+}
+html[data-btype *= 'Firefox'] .ncs_quirk_price_wrap {
+	margin-top: 10px;
+}
+html[data-btype *= 'Edge'] .ncs_quirk_price_wrap {
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ncsleaseInnerWrapper,
+.qsLeaseContainerInner,
+.qsLeaseVals {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+}
+.ncsleaseInnerWrapper {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.salePricing .qSavings, 
+.ncs_quirk_price_wrap .qSavings {    
+    color: #333;
+    width: 33%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+.qMarquee {
+	position: relative;
+	height: 25px;
+    overflow: hidden;
+    width: 100%;    
+    margin: 1% 0;
+}
+html[data-btype *= 'Firefox'] .qMarquee {
+	margin: 5px 0;
+}
+.qMarqueeFadeL {
+	background-image: -moz-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,0));    
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: linear-gradient(to right, rgba(255,255,255,1),rgba(255,255,255,0));
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 8%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 2;	
+}
+.qMarqueeFadeR {
+	background-image: -moz-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -webkit-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: linear-gradient(to left, rgba(255,255,255,1),rgba(255,255,255,0));
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 8%;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 2;	
+}
+.qMarqueespan {	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	top: 0;
+	line-height: 1.5;
+	text-align: left;	
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);	
+	transform:translateX(100%);
+	-moz-animation: ncsmarquee 12s linear infinite;
+	-webkit-animation: ncsmarquee 12s linear infinite;
+	animation: ncsmarquee 12s linear infinite;
+	z-index: 1;
+	white-space: nowrap;
+}
+/* Move it (define the animation) */
+@-moz-keyframes ncsmarquee {
+	0%   { -moz-transform: translateX(100%); }
+	100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes ncsmarquee {
+	0%   { -webkit-transform: translateX(100%); }
+	100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes ncsmarquee {
+	0%   { 
+		-moz-transform: translateX(100%); /* Firefox bug fix */
+		-webkit-transform: translateX(100%); /* Firefox bug fix */
+		transform: translateX(100%); 		
+	}
+	100% { 
+		-moz-transform: translateX(-100%); /* Firefox bug fix */
+		-webkit-transform: translateX(-100%); /* Firefox bug fix */
+		transform: translateX(-100%); 
+	}
+}
+.qsThirtyThree {
+	width: 33%;
+}
+.qSavings table {
+    width: 100%;
+    font-size: .7vw;
+    font-size: 10px !important;
+    background: #ffffff;
+    align-self: center;
+    -webkit-align-self: center;
+    font-weight: 900;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    margin: 0 !important; 
+    line-height: 1.5 !important;
+    color: #333 !important; 
+    table-layout: fixed; 
+    border-collapse: collapse;
+    border-spacing: 0; 
+    border: none !important; 
+    vertical-align: baseline;
+}
+html[data-btype *= 'Edge'] .qSavings table,
+html[data-btype *= 'rv:11.0'] .qSavings table {
+	font-size: 9.5px !important;
+}
+html[data-btype *= 'Macintosh'] .qSavings table,
+html[data-btype *= 'iPad'] .qSavings table {
+	font-size: 9px !important;
+}
+.qSavings table td {
+	font-weight: 900;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    padding: 0 2%;
+    border: 0;
+    margin: 0;    
+    word-wrap: break-word;   
+    hyphens: none;                     
+}
+.qSavings table tr {
+	border: 0;
+    margin: 0;
+}
+.salePricing table tr:nth-child(odd), 
+.ncs_quirk_price_wrap table tr:nth-child(odd),
+.qSavings table tr:nth-child(odd) {
+    background: #cccccc;
+}
+.ncs_quirk_price_wrap table td:nth-child(even),
+.qSavings table td:nth-child(even) {
+	text-align:right;
+}
+.qsAPR_value,
+.qs_price_value {
+    font-size: 25px;
+}
+span.pdSign {
+    font-size: 16px;
+    line-height: 1.6;
+    vertical-align: top; 
+}
+.specialAPR,
+.salePricingBuyPrices {
+	line-height: 1.3;	
+	text-align: center; 
+	font-size: 18px; 
+}
+.qsFinanceCalcLink {
+    text-align: center;
+    line-height: 1.1;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.ncsFinCalcLaunch {	
+	cursor: pointer;
+}
+.qsBottomMarqueeLinks {
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.qsBottomWrapperLinks {
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+.specialCTAs {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    padding: 2%;
+    font-size: 12px;
+    /*text-transform: uppercase;*/
+}
+html[data-btype *= 'Edge'] .specialCTAs {
+	padding-bottom: 10px;
+}
+.specialCTAs a {
+    display: table;
+    padding: 4%;
+    font-size: 12px;
+}
+html[data-btype *= 'Firefox'] .specialCTAs {
+	padding: 12px 10px 10px 10px;
+}
+.specialCTAs a:hover {
+    cursor: pointer;
+}
+.viewInventory, 
+.valueTrade {
+	color: #fff !important;
+    background-color: #3b3b3b;
+    padding: 4% 0;
+    width: 29%;
+    margin: 0 1% 0 0;
+    text-align: center;
+}
+.specialCTAs .viewInventory, 
+.specialCTAs .valueTrade {
+	width: 32.66%;
+}
+html[data-btype*='Edge'] .specialCTAs .viewInventory, 
+html[data-btype*='Edge'] .specialCTAs .valueTrade, 
+html[data-btype*='rv:11.0'] .specialCTAs .viewInventory, 
+html[data-btype*='rv:11.0'] .specialCTAs .valueTrade,
+html[data-btype*='Macintosh'] .specialCTAs .viewInventory, 
+html[data-btype*='Macintosh'] .specialCTAs .valueTrade,
+html[data-btype*='iPad'] .specialCTAs .viewInventory, 
+html[data-btype*='iPad'] .specialCTAs .valueTrade,
+html[data-btype*='iPhone'] .specialCTAs .viewInventory, 
+html[data-btype*='iPhone'] .specialCTAs .valueTrade {
+	width: 32.5%;
+}
+.viewInventory:hover,
+.valueTrade:hover {
+    background-color: #565353;
+}
+.getInfo {
+	color: #fff !important;
+    padding: 3% 0;
+    text-align: center;
+    width: 39%;
+}
+.specialCTAs .getInfo {
+	width: 32.66%;
+	padding: 4% 0;
+}
+html[data-btype*='rv:11.0'] .specialCTAs a,
+html[data-btype*='rv:11.0'] .specialCTAs .getInfo {
+	padding: 4% 0;	
+}
+html[data-btype*='Edge'] .specialCTAs .getInfo, 
+html[data-btype*='rv:11.0'] .specialCTAs .getInfo,
+html[data-btype*='Macintosh'] .specialCTAs .getInfo,
+html[data-btype*='iPad'] .specialCTAs .getInfo,
+html[data-btype*='iPhone'] .specialCTAs .getInfo {
+	width: 32.5%;
+}
+.specialsFormContainer {
+    display: none;
+}
+.specialsFormContainer a {
+	text-decoration: none;
+	box-shadow: none;
+    border: none;
+}
+.qDisclaimer {
+	display: none;
+	font-size: .6vw;
+	color:#000;	
+    border: 1px solid #000;
+    margin: 1% 0;
+    background-color:#fff;    
+}
+.qDisclaimer p {
+	padding:1%;
+	margin: 0;
+}
+.NoSpecials {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    padding: 5% 0;
+}
+.ncsDiscBG {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: rgba(0,0,0, .5);
+}
+.ncsDiscWrapperInner {
+	position: fixed;
+	top: 50.09%;
+    left: 50.09%;
+    transform: translate(-50.09%, -50.09%);
+    -webkit-transform: translate(-50.09%, -50.09%);
+    z-index: 999999999;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    min-width: 600px;
+    border: 1px solid rgba(0,0,0, .5);
+}
+.ncsDiscWrapperInner h5 {
+	font-family: 'Antenna-Bold', Arial;
+    font-size: 20px !important;
+    margin: 20px 0 !important;
+    line-height: 1.2 !important;
+}
+.ncsDiscWrapperInner p {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.ncsDiscClose {
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+/*--------------------------------------------------------------
+# Responsive Specials Styling
+--------------------------------------------------------------*/
+@media(max-width:1350px) {
+	h3.ncs_model_title {
+		font-size: 1.4vw !important;
+	}
+	.qs_save_wrapper {	   
+	    font-size: 1.3vw;
+	}	
+	span.qsLeaseValNumber {	    
+	    font-size: 3vw;
+	}
+	span.ldSign {
+		font-size: 1.4vw;
+	}
+	.qsLeaseValWrapBottom {
+		font-size: .8vw;
+	}
+	.qSinglePayDouble span.qsLeaseValNumber {
+	    font-size: 2.3vw;
+	}
+	span.qsLeaseMonth {
+		font-size: 1.3vw;
+	}
+	.qsLeaseContainer {
+		font-size: 1.2vw;
+	}
+	.qsLeaseDiscLink a, 
+	.qsFinanceCalcLink a {
+	    font-size: 1.1vw;
+	}
+	.qsLeaseContainer {
+		padding: 1%;
+	}
+	.specialCTAs a {
+		font-size: 1vw;
+	}
+	.qSavings table {
+		font-size: .8vw !important;
+	}
+	html[data-btype *= 'Edge'] .qSavings table,
+	html[data-btype *= 'rv:11.0'] .qSavings table {
+		font-size: .75vw !important;
+	}
+	html[data-btype *= 'Macintosh'] .qSavings table,
+	html[data-btype *= 'iPad'] .qSavings table {
+		font-size: .7vw !important;
+	}
+	.specialAPR, 
+	.salePricingBuyPrices {
+		font-size: 1.4vw;
+	}
+	.qsAPR_value, 
+	.qs_price_value {
+		font-size: 1.9vw;
+	}
+	span.pdSign {
+		font-size: 1.2vw;
+	}
+	.qsNoLeaseOptions {
+		font-size: 1.35vw;
+	}	
+}
+@media(max-width: 1200px) {
+	.qMarquee {
+	    font-size: 1.3vw;
+	}
+}
+@media(max-width: 966px) {
+	.IndivSpecial.qsContent {
+		width: 48%;
+		margin: 0 1% 2% 1%;
+	}
+	html[data-btype *= 'Edge'] .IndivSpecial.qsContent,
+	html[data-btype *= 'Firefox'] .IndivSpecial.qsContent {
+		margin: 0 1% 18px 1%;
+	}
+	h3.ncs_model_title {
+		font-size: 2.2vw !important;
+	}
+	.qs_save_wrapper {
+		font-size: 2vw;
+	}
+	.qsLeaseContainer {
+		padding: 1%;
+	}
+	.qsLeaseTitleContainer,
+	span.pdSign,
+	.qMarquee {
+	    font-size: 1.7vw;
+	}
+	.qsLeaseTitleContainer {
+		line-height: 1.3;
+	}
+	.qsLeaseDiscLink a, 
+	.qsFinanceCalcLink a {
+	    font-size: 1.5vw;
+	}
+	span.qsLeaseValNumber {
+		font-size: 4.3vw;
+	}
+	.qSinglePayDouble span.qsLeaseValNumber {
+		font-size: 3.6vw;
+		line-height: 1.1;
+	}
+	span.ldSign {
+		font-size: 1.9vw;
+	}
+	span.qsLeaseMonth {
+		font-size: 1.8vw;
+	}
+	.qsLeaseValWrapBottom {
+		font-size: 1.1vw;
+	}
+	.qsNoLeaseOptions {
+	    font-size: 1.9vw;
+	    padding: 4.2% 0;
+	}
+	.specialAPR, 
+	.salePricingBuyPrices {
+		font-size: 1.9vw;
+	}
+	.qsAPR_value, 
+	.qs_price_value {
+		font-size: 2.6vw;
+	}
+	.qSavings table {
+		font-size: 1.2vw !important;
+	}
+	html[data-btype *= 'Firefox'] .qSavings table,
+	html[data-btype *= 'Edge'] .qSavings table,
+	html[data-btype *= 'rv:11.0'] .qSavings table {
+		font-size: 1.1vw !important;
+	}		
+	html[data-btype *= 'Macintosh'] .qSavings table,
+	html[data-btype *= 'iPad'] .qSavings table {
+		font-size: 1.05vw !important;
+	}
+	.specialCTAs a {
+		font-size: 1.4vw;
+	}
+}
+@media(max-width: 800px) {
+	.qsLeaseValWrapBottom {
+	    font-size: 1.3vw;
+	}
+	.qMarquee {
+	    font-size: 1.8vw;
+	}
+	.qSavings table,
+	html[data-btype *= 'Firefox'] .qSavings table,
+	html[data-btype *= 'Edge'] .qSavings table,
+	html[data-btype *= 'rv:11.0'] .qSavings table {
+	    font-size: 1.15vw !important;
+	}
+	html[data-btype *= 'Macintosh'] .qSavings table,
+	html[data-btype *= 'iPad'] .qSavings table {
+	    font-size: 1.1vw !important;
+	}
+}
+@media(max-width:768px) {
+	.ncsDiscWrapperInner,
+	.ncsDiscClose {
+		font-size: 12px;
+	}
+	.ncsDiscWrapperInner {
+		min-width: 400px;
+	}
+	.ncsDiscClose {
+		line-height: 12px;
+	}
+	.ncsDiscWrapperInner h5 {
+	    font-size: 18px !important;
+	    margin: 18px 0 !important;
+	}
+}
+@media(max-width: 630px) {
+	.IndivSpecial.qsContent {
+		width: 98%;
+		margin: 0 1% 15px 1%;
+	}
+	html[data-btype *= 'iPhone'] .qsContentBody,
+	html[data-btype *= 'iPhone'] .qsInnerContent,
+	html[data-btype *= 'iPhone'] .qsBottomHalf,
+	html[data-btype *= 'iPhone'] .qsBottomMarqueeLinks,
+	html[data-btype *= 'iPhone'] .qsBottomWrapperLinks {
+		height: auto;
+	}
+	html[data-btype *= 'iPhone'] .IndivSpecial.qsContent {
+		outline: none;
+		border: 2px solid #000;
+	}
+	html[data-btype *= 'Edge'] .IndivSpecial.qsContent,
+	html[data-btype *= 'Firefox'] .IndivSpecial.qsContent {
+		margin: 0 1% 15px 1%;
+	}
+	h3.ncs_model_title {
+		font-size: 4.2vw !important;
+	}
+	.qs_save_wrapper {
+		font-size: 4vw;
+	}
+	span.qsLeaseValNumber {
+	    font-size: 8.2vw;
+	}
+	span.ldSign {
+		font-size: 4.4vw;
+	}
+	span.qsLeaseMonth {
+		font-size: 4.6vw;
+	}
+	.qSinglePayDouble span.qsLeaseValNumber {
+		font-size: 6.8vw;
+		line-height: 1.1;
+	}
+	.qsLeaseTitle {
+	    font-size: 3.5vw;
+	}
+	.qsLeaseTitleContainer {
+		line-height: 1.2;
+	}
+	.qMarquee {
+		font-size: 3vw;
+		height: 30px;
+	}
+	.qsNoLeaseOptions {
+	    font-size: 4vw;
+	}	
+	.qsLeaseValWrapBottom {
+	    font-size: 2vw;	    
+	}
+	.qSavings table,
+	html[data-btype *= 'Firefox'] .qSavings table,
+	html[data-btype *= 'Edge'] .qSavings table,
+	html[data-btype *= 'rv:11.0'] .qSavings table,
+	html[data-btype *= 'Macintosh'] .qSavings table,
+	html[data-btype *= 'iPad'] .qSavings table,
+	html[data-btype *= 'iPhone'] .qSavings table {
+		font-size: 2.1vw !important;
+	}
+	.specialAPR, 
+	.salePricingBuyPrices {
+		font-size: 4vw;
+	}	
+	span.pdSign {
+	    font-size: 2.9vw;
+	}
+	.qsAPR_value, 
+	.qs_price_value {
+	    font-size: 5vw;
+	}
+	.qsLeaseDiscLink a,
+	.qsFinanceCalcLink a {
+	    font-size: 3vw;
+	}
+	.specialCTAs a {
+		font-size: 2.5vw;
+	}	
+}
+@media(max-width: 550px) {
+	.qMarquee {
+		font-size: 3.5vw;		
+	}
+	.qSavings table {
+	    font-size: 2.3vw !important;
+	}
+	html[data-btype *= 'Firefox'] .qSavings table,
+	html[data-btype *= 'Edge'] .qSavings table,
+	html[data-btype *= 'rv:11.0'] .qSavings table {
+	    font-size: 2.2vw !important;
+	}
+	html[data-btype *= 'Macintosh'] .qSavings table,
+	html[data-btype *= 'iPad'] .qSavings table,
+	html[data-btype *= 'iPhone'] .qSavings table {
+	    font-size: 2.15vw !important;
+	}
+	.qsLeaseValWrapBottom {
+	    font-size: 2.2vw;
+	}
+	.specialCTAs a {
+		font-size: 2.6vw;
+	}
+}
+@media(max-width: 450px) {	
+	.qMarquee {
+		font-size: 3.8vw;
+		height: 26px;		
+	}
+	.qSavings table {
+	    font-size: 2.35vw !important;
+	}
+	html[data-btype *= 'Firefox'] .qSavings table,
+	html[data-btype *= 'Edge'] .qSavings table,
+	html[data-btype *= 'rv:11.0'] .qSavings table,	
+	html[data-btype *= 'Macintosh'] .qSavings table,
+	html[data-btype *= 'iPad'] .qSavings table,
+	html[data-btype *= 'iPhone'] .qSavings table {
+		font-size: 2.25vw !important;
+	}
+	.IndivSpecial.qsContent {
+		min-width: auto;
+	}
+	.qsLeaseValWrapBottom {
+	    font-size: 2.4vw;
+	}
+	.specialAPR, 
+	.salePricingBuyPrices {
+	    font-size: 4.3vw;
+	}
+	span.pdSign {
+	    font-size: 3.4vw;
+	}
+	.qsAPR_value, .qs_price_value {
+	    font-size: 5.5vw;
+	}
+	.specialCTAs a {
+	    font-size: 2.6vw;
+	}
+	.ncsDiscWrapperInner {
+		min-width: 290px;
+		padding: 15px 15px 10px 15px;
+	}
+	.ncsDiscClose {
+		top: 1.5%;
+		right: 2.5%;
+	}
+	.ncsDiscWrapperInner h5 {
+	    font-size: 16px !important;
+	    margin: 18px 0 10px 0 !important;
+	}
+}
+@media(max-width: 450px) and (max-height: 650px) {
+	.ncsDiscWrapperInner {
+	    position: absolute;
+	    transform: translate(-50.09%, 0);
+	    -webkit-transform: translate(-50.09%, 0);
+	    margin-bottom: 20px;
+	}
+}
+@media(max-height: 650px) {
+	.ncsDiscWrapperInner {
+	    position: absolute;
+	    transform: translate(-50.09%, 0);
+	    -webkit-transform: translate(-50.09%, 0);
+	    margin-bottom: 20px;
+	}
+}
+@media(max-width: 400px) {
+	.qSavings table,
+	html[data-btype *= 'Firefox'] .qSavings table,
+	html[data-btype *= 'Edge'] .qSavings table,
+	html[data-btype *= 'rv:11.0'] .qSavings table {
+	    font-size: 2.35vw !important;
+	}
+	.qsLeaseTitle {
+	    font-size: 4vw;
+	}
+	.qsLeaseDiscLink a, 
+	.qsFinanceCalcLink a {
+	    font-size: 3.5vw;
+	}
+}
+/*===============================================================================================================
+# Single Special Page Template
+  ===============================================================================================================*/
+article.ncs_special {
+    margin: 0 0 1.5em;
+}
+.ncs_singlePost_page sup {
+  	top: 0;
+}
+.ncs_singlePost_page {
+    color: #000;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    background-color: #fff;
+    font-weight: 300;
+    font-size:14px;    
+    line-height: 1.5;
+    letter-spacing: -.5px;
+    margin: 30px 0;
+    padding: 0;   
+}
+.qsContent.singlePost {
+	border: none !important;
+	margin: 0 !important;
+	padding: 0;
+	text-align:left;
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+} 
+.vehicleMedia_singlePost {	
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    max-width: 750px;
+    margin: auto;
+    padding: 10px 2%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    min-height: 80px;
+    box-sizing: border-box;
+}
+.monthlyPricing_singlePost_maxWrap,
+.specialAPR_singlePost_maxWrap,
+.quirkPrice_singlePost_maxWrap,
+.savings_cta_wrap_singlePost {	
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    max-width: 700px;
+    margin: auto;
+    padding: 10px 4%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    min-height: 80px;
+    box-sizing: border-box;
+}
+.ncsCallNow_singlePost,
+.qDisclaimer_singlePost {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    max-width: 700px;
+    margin: auto;
+    padding: 0 4%;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.vehicleMedia_singlePost {
+    padding-bottom: 60px;
+}
+.ncs_top_title_singlePost {
+    font-family: 'Antenna-Bold', 'Open Sans', Helvetica !important;
+    font-weight: 900;
+}
+.vehicleMedia_singlePostWrap {
+    position: relative;
+    height: auto;
+    clear: both;
+    overflow: hidden;
+}
+.ncs_single_bg_img {
+	position: absolute;
+    top: 15%;
+    left: 61%;
+    z-index: 9;
+    opacity: .05;
+    width: 504px;
+    height: 205px;
+    max-width: 100%; 
+    z-index:9;   
+}
+.vehicleMedia_inner_wrap_singlePost {
+    width: 55%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    /*flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;*/
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    position: relative;
+    margin-right: 1%;
+    z-index:99;
+}
+.ncsImgWrapper_singlePost span {
+    font-size: 16px;
+    line-height: 18px;
+    position: relative;
+    margin-top: 1.8%;
+    display: block;
+    padding: 0%;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    text-align:center;
+}
+.ncsImgWrapper_singlePost img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.ncs_title_save_wrap_singlePost {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;    
+    width: 43%;
+    margin-left:1%;
+}
+h3.ncs_model_title_singlePost {
+    margin: 0;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;  
+    font-weight: 400;  
+}
+.ncs_save_text_singlePost {
+    font-size: 16px;
+    line-height: 16px;
+}
+.ncs_save_currency_singlePost {
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: -4px;
+}
+.monthlyPricing_singlePost,
+.quirkPrice_singlePost {
+    background-color: #f0f0f0;
+}
+.NCS_Lease_TitleWrap_singlePost,
+.NCS_APRContainer_singlePost,
+.quirkPriceTitleWrap,
+.conquestPrice_singlePost {    
+    width: 40%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 20px;
+    line-height: 2.8;
+}
+/*.ncs_Zdown {
+	font-size: 18px;
+}*/
+.NCS_leasingContainer_singlePost,
+.NCS_APRContent_singlePost,
+.quirkPriceCurrencyWrap,
+.salePricing_singlePost {
+	width: 60%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;  
+    justify-content: center;
+    -webkit-justify-content: center;  
+}
+.specialLease_singlePost, 
+.specialZeroDown_singlePost {
+	text-align: center;
+	align-self: center;
+	-webkit-align-self: center;
+}
+.NCS_Lease_TitleWrap_singlePost,
+.NCS_APRContent_singlePost,
+.NCS_APRContainer_singlePost,
+.quirkPriceTitleWrap,
+.quirkPriceCurrencyWrap,
+.conquestPrice_singlePost,
+.salePricing_singlePost {
+    align-self: center;
+    -webkit-align-self: center;
+}
+.NCS_leasingInnerContainer_singlePost {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap; 
+    width: 70%;
+}
+.specialLease_singlePost .price1_singlePost,
+.specialZeroDown_singlePost .price1_singlePost,
+.NCS_APR_Percent_singlePage {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 900;
+}
+.ncsDsign_singlePost {
+    font-size: 16px;
+    vertical-align: top;
+    line-height: 1.5;
+}
+span.cLeaseMo {
+    font-size: 16px;
+}
+.NCS_leasingContainer_singlePost .label2_singlePost {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 10px;
+}
+.NCS_APR_Percent_singlePage {
+    width: 15%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.NCS_APR_Percent_singlePage .price1_singlePost,
+.NCS_APR_Text_singlePage .label2_singlePost {
+	align-self: center;
+	-webkit-align-self: center;
+	text-align: center;
+}
+.NCS_APR_Text_singlePage {
+    width: 35%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    font-size: 12px;
+    line-height: 12px;
+}
+.quirkPriceCurrencyWrap {
+    font-size: 38px;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.price1Dsign_SinglePostQuirk {
+    font-size: 24px;
+    line-height: 48px;
+}
+/*.NCS_ConQuestTitle_singlePost,
+.quirkPriceTitleWrap,
+.label2_singlePost {
+    color: #2d96cd;
+}*/
+.savings_cta_wrap_singlePost {
+    padding: 1.5% 4%;
+}
+.conquestPrice_singlePost {
+    flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;   
+}
+.NCS_ConQuestTitle_singlePost,
+.NCS_ConQuestPrice_singlePost {
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
+}
+.NCS_ConQuestTitle_singlePost {
+    font-size: 12px;
+    line-height: 12px;
+}
+.NCS_ConQuestPrice_singlePost {
+    font-weight: 900;
+    line-height: 24px;
+}
+.price1Dsign_SinglePostConq {
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.qSavings_singlePost {
+    min-width: 130px;    
+    max-width: 80%;
+    font-size: 12px;          
+}
+.qSavings_singlePost table {
+	width: 100%;
+	border-spacing: 0;		 
+}
+.qSavings_singlePost table,
+.qSavings_singlePost table td,
+.qSavings_singlePost table tr {
+	border: 0;
+    margin: 0;
+}
+.qSavings_singlePost table tr:nth-child(odd) {
+    background: #cccccc;
+}
+.qSavings_singlePost table tr:nth-child(even) {
+    background: #fff;
+}
+.qSavings_singlePost table td:nth-child(even) {
+    text-align: right;
+}
+.qSavings_singlePost table td {
+    font-weight: 900;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    padding: 0 2%;
+    min-width: 52px; 
+    word-wrap: normal;      
+}
+.specialCTAs_singlePost {
+    /*display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;    
+    justify-content: space-between;
+    -webkit-justify-content: space-between;*/
+    max-width: 700px;
+    margin: auto;
+    padding: 0 4% 1% 4%;
+    font-size: 12px;    
+}
+.specialCTAs_singlePost_linkWrap {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    width: 100%;
+    padding: 3% 2% 0 2%;
+    border-top: 1px solid;
+}
+.specialCTAsIndividualDiv {
+	width:33%;
+	margin: 0 1%; 
+}
+.specialCTAsIndividualDiv a {
+    display: table;
+    width:100%;        
+    padding: 7% 0;
+}
+.specialCTAs_singlePost .viewInventory:hover, 
+.specialCTAs_singlePost .valueTrade:hover {
+    background-color: #565353;
+}
+.specialCTAs_singlePost a:hover {
+	cursor: pointer;
+}
+.ncsCallNow_singlePost {
+    padding-bottom: 1.5%;
+    font-size: 18px;
+}
+.ncsCallNow_singlePost span {
+	border-bottom: 1px solid #000;
+}
+.qDisclaimer_singlePost {
+    font-size: 10px;
+    text-align: center;
+}
+.qDisclaimer_singlePost p {
+	padding-bottom: 1.5em;
+    margin: 0;
+}
+@media(max-width:1450px) {
+	.ncs_single_bg_img {
+		width: 38%;
+	}
+}
+@media(max-width:1250px) {
+	.ncs_single_bg_img {
+		top: 25%;
+    	left: 65%;
+		width: 35%;
+		height: auto;
+	}
+}
+/*@media(max-width:1024px){
+	.ncs_singlePost_page{
+		margin-top: 0 !important;
+	}
+}*/
+@media(max-width:850px) {
+	.ncs_single_bg_img {
+		left: 55%;
+    	width: 45%;
+	}
+}
+@media(max-width:700px) {
+	.ncs_singlePost_page {
+		margin: 3% 0;
+	}
+	h3.ncs_model_title_singlePost {
+	    font-size: 3.2vw;
+	    line-height: 3.2vw;
+	}
+	.ncs_save_currency_singlePost {
+	    font-size: 5.8vw;
+	    line-height: 5.8vw;
+	}
+	.ncs_save_text_singlePost {
+    	font-size: 2.3vw;
+	    line-height: 2.3vw;
+	}
+	.ncsImgWrapper_singlePost span {
+		font-size: 14px;
+	    line-height: 16px;
+	}
+	.vehicleMedia_singlePost {
+	    padding-bottom: 10%;
+	}
+	.NCS_leasingContainer_singlePost .label2_singlePost {
+	    font-size: 10px;
+	    line-height: 10px;
+	}
+	.NCS_APR_Text_singlePage {
+		font-size: 10px;
+	    line-height: 10px;
+	}
+	.NCS_APR_Percent_singlePage {
+		margin-right:2%;
+	}
+	.monthlyPricing_singlePost_maxWrap, 
+	.specialAPR_singlePost_maxWrap, 
+	.quirkPrice_singlePost_maxWrap, 
+	.savings_cta_wrap_singlePost {
+		min-height:70px;
+	}
+	.price1Dsign_SinglePostQuirk {
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+	.quirkPriceCurrencyWrap {
+	    font-size: 38px;
+	    line-height: 38px;	    
+	}
+	.qSavings_singlePost {
+		font-size:10px;
+	}
+	.ncsCallNow_singlePost {
+	    padding-bottom: 2.5%;	   
+	}
+	.specialCTAs_singlePost {
+		padding: 0 4% 2% 4%;
+	}
+}
+@media(max-width:600px){
+	.NCS_Lease_TitleWrap_singlePost, 
+	.NCS_APRContainer_singlePost, 
+	.quirkPriceTitleWrap, 
+	.conquestPrice_singlePost {
+		font-size: 16px;
+	}
+	/*span.label1_singlePost.ncs_Zdown {
+	    font-size: 14px;
+	}*/
+	.NCS_ConQuestTitle_singlePost {
+	    font-size: 10px;
+	    line-height: 10px;
+	}
+	.monthlyPricing_singlePost_maxWrap, 
+	.specialAPR_singlePost_maxWrap, 
+	.quirkPrice_singlePost_maxWrap, 
+	.savings_cta_wrap_singlePost {
+		min-height:60px;
+	}
+	.quirkPriceCurrencyWrap {
+	    font-size: 34px;
+	    line-height: 34px;
+	}
+	.savings_cta_wrap_singlePost {
+	    padding: 2.5% 4%;
+	}
+}
+@media(max-width:550px){
+	.ncsImgWrapper_singlePost span {
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+	h3.ncs_model_title_singlePost {
+	    font-size: 3.4vw;
+	    line-height: 3.4vw;
+	}
+	.ncs_save_currency_singlePost {
+	    font-size: 6.2vw;
+	    line-height: 6.2vw;
+	}
+	.ncs_save_text_singlePost {
+	    font-size: 2.6vw;
+	    line-height: 2.6vw;
+	}
+	.ncs_save_currency_singlePost {
+		margin-left: -2px;
+	}
+	.NCSrightborder {
+		padding-right: 6%;		
+	}
+	.NCS_leasingInnerContainer_singlePost {
+		width:80%;
+	}
+	.ncsDsign_singlePost {
+		line-height: 1.4;
+	}
+	.specialLease_singlePost .price1_singlePost, 
+	.specialZeroDown_singlePost .price1_singlePost, 
+	.NCS_APR_Percent_singlePage {
+	    font-size: 20px;
+	    line-height: 24px;	    
+	}
+	.specialCTAs_singlePost {
+		font-size: 10px;
+	}
+}
+@media(max-width:500px){
+	.NCS_APR_Percent_singlePage {
+	    margin-right: 3%;
+	}
+	.NCS_APR_Text_singlePage {
+		width: 45%;
+	}
+	.qDisclaimer_singlePost {
+	    font-size: 8px;	    
+	}	
+}
+@media(max-width:400px){
+	.NCS_leasingInnerContainer_singlePost {
+	    width: 90%;
+	}
+	.NCSrightborder {
+		padding-right: 3%;		
+	}
+	.NCS_Lease_TitleWrap_singlePost, 
+	.NCS_APRContainer_singlePost, 
+	.quirkPriceTitleWrap, 
+	.conquestPrice_singlePost {
+	    font-size: 14px;
+	}
+	.qSavings_singlePost {
+    	min-width: 110px;	    
+	}
+	.specialCTAsIndividualDiv a {
+		padding:12% 0;
+	}
+}
+@media(max-width:350px) {
+	.specialLease_singlePost .price1_singlePost, .specialZeroDown_singlePost .price1_singlePost, .NCS_APR_Percent_singlePage {
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+	.NCS_leasingInnerContainer_singlePost {
+	    width: 95%;
+	}
+	.NCS_leasingContainer_singlePost .label2_singlePost {
+	    font-size: 8px;
+	    line-height: 8px;	     
+	}
+	.ncsSingleLease_singlePost {
+		padding-right: .5%;
+		margin-right: 3%;		
+	}
+	.NCS_APR_Text_singlePage {
+	    font-size: 8px;
+	    line-height: 8px;
+	    margin-left: 2%; 
+	}
+	.ncsDsign_singlePost {
+	    font-size: 14px;	    
+	    line-height: 1.3;
+	}	
+}
+/*===============================================================================================================
+# Specials Finance Calculator
+  ===============================================================================================================*/
+/*.ncsPcalcContainer {
+	display: none;
+}
+.ncsShowCalcContainer {
+	display:block !important;
+}*/
+.ncsCalcBackdrop {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: rgba(0,0,0, .5);
+}
+.ncsPcalcInnerContainer {
+	position: fixed;    
+    background-color: transparent;
+    z-index: 999999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 600px;
+    font-size: 14px;	
+    line-height: 1.5;
+    letter-spacing: -.3px;
+}
+.ncsCalcClose {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    line-height: 14px;
+    /*font-size: 14px;*/
+}
+.ncsPCalc {
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica;
+}
+.ncsCalcDisclaimer,
+.ncsCalcPayTitle, 
+.ncsPCalc label {
+    text-align: center;
+}
+fieldset.ncsCalcMainFieldset,
+fieldset.ncsCalcOutputFieldset {
+    background-color: #eee;
+    padding: 15px;
+    width: 100%;
+    margin: 0 0 20px;
+    border: none;
+    box-sizing: inherit;    
+}
+.ncsCalcFieldFull {
+    margin-top: 10px;
+}
+.ncsCalcFieldFull, 
+.ncsCalcFieldHalf {
+    padding-bottom: 10px;
+}
+.ncsPCalc input, 
+.ncsPCalc select {
+    background: #fff;
+    border: none !important;
+    outline: 0;
+    font-size: 18px;
+    padding: 0 10px !important;
+    border-radius: 5px !important;
+    height: 30px;
+    line-height: 30px;    
+    font-weight: 400;
+    color: #000 !important;
+    box-sizing: inherit;
+}
+.ncsPCalc input, 
+.ncsPCalc select,
+.ncsCalcCostStaticBold,
+.ncsCalcoMonthVariable,
+.ncsCalcOutPutIndividual.ncsCalcOutPutIBig {
+	font-family: Arial !important;
+}
+.ncsCalcFieldFull, 
+.ncsPCalc input, 
+.ncsPCalc select {
+    width: 100%;
+    color: #000;
+}
+
+.ncsPCalc label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    /*font-size: 14px;*/
+    font-family: 'Antenna-Light', Arial;
+}
+.ncsCalcFieldHalf {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+.ncsCalcFieldHalf:nth-child(odd) {
+    margin-right: 0;
+}
+.ncsCalcFieldBtnContainer {
+    margin: 20px 0 10px;
+    float: left;
+}
+.ncsCalcFieldBtnContainer button {
+    border: none !important;
+    color: #fff;
+    font-size: 14px !important;    
+    line-height: 14px;
+    padding: 8px 18px;
+    border-radius: 5px;
+    vertical-align: middle;
+    font-weight: 400;
+}
+.ncsCalcPayTitle {
+    font-size: 14px;
+}
+h3.ncsCalcPayDetails,
+.ncsCalcPayEst {
+    font-family: 'Antenna-bold', Arial !important;
+    font-weight: 900;
+}
+.ncsCalcPayEst {
+    margin-bottom: 3px;
+}
+.ncsCalcPayEstMoney {
+	font-family: 'Antenna-Light', Arial !important;
+	font-weight: 400;
+}
+h3.ncsCalcPayDetails {
+	margin: 0 0 5px !important;
+	font-size: 22px !important;
+}
+.ncsCalcOutPut {
+	padding: 8px 0;
+}
+.ncsCalcOutPutIndividual.ncsCalcOutPutIBig {
+    align-self: center;
+    text-align: center;  
+    font-weight: 900;
+    line-height: 1.3;
+    font-size: 23px;
+}
+.ncsCalcDisclaimer {
+	font-size: 10px;
+	font-style: italic;
+}
+@media(max-width:630px){
+	.ncsPcalcInnerContainer {
+		width:90%;
+    	min-width: 290px;
+	}
+	.ncsCalcFieldBtnContainer {
+		width: 100%;
+    	text-align: center;
+	}
+}
+@media(max-width:630px) {
+	.ncsPcalcInnerContainer {
+		position: absolute;
+		transform: translate(-50%, 0);
+    	-webkit-transform: translate(-50%, 0);
+	}
+}
+@media(max-height:600px) {
+	.ncsPcalcInnerContainer {
+		position: absolute;
+		transform: translate(-50%, 0);
+    	-webkit-transform: translate(-50%, 0);
+	}
+}
+@media(max-width: 450px) {
+	fieldset.ncsCalcMainFieldset, 
+	fieldset.ncsCalcOutputFieldset {
+		padding: 10px;
+	    margin: 0 0 15px;
+	}
+	.ncsCalcClose {
+		top: 1.5%;
+		right: 2.5%;
+		line-height: 12px;
+	}
+	.ncsPcalcInnerContainer {
+		font-size: 12px;
+	}	
+	.ncsPCalc input, 
+	.ncsPCalc select {
+		font-size: 15px;
+    	padding: 0 8px !important;
+    	height: 23px;
+    	line-height: 26px;
+	}
+	.ncsCalcFieldBtnContainer {
+		margin: 15px 0 8px;
+	}
+	.ncsCalcFieldBtnContainer button {
+		font-size: 12px !important;
+		line-height: 12px;	    
+	}
+	.ncsPCalc label {
+		font-size: 13px;
+	}
+	.ncsCalcPayTitle {
+	    font-size: 13px;
+	}
+	h3.ncsCalcPayDetails {
+	    font-size: 20px !important;
+	    margin: 0 0 3px !important;
+	}
+	.ncsCalcOutPut {
+	    padding: 5px 0;
+	}
+	.ncsCalcOutPutIndividual.ncsCalcOutPutIBig {
+		font-size: 21px;
+	}
+	.ncsCalcDisclaimer {
+		font-size: 9px;
+	}
+}
+/*@media(max-height:600px) {
+	.ncsPcalcInnerContainer {
+		position: absolute;
+		transform: translate(-50%, 0);
+    	-webkit-transform: translate(-50%, 0);
+    	width:90%;
+    	min-width: 290px;
+	}
+	.ncsCalcFieldBtnContainer {
+		width: 100%;
+    	text-align: center;
+	}
+}*/
+/*===============================================================================================================
+# Get Special Form
+  ===============================================================================================================*/
+/**
+*Shortcode Form
+**/
+/*.specialsShortCodeFormContainer {
+	display: none;
+	padding: 0 3% 1.5% 3%;
+}
+.NCSShortCodeFormOptionWrapper,
+.NCSShortCodeFormLeft,
+.NCSShortCodeFormRight,
+.NCSSCFormInput,
+.NCSSCFormPrimaryInput,
+.NCSFormIPIndividual,
+.ncsShortCodeComments {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;    
+}
+.NCSShortCodeFormOptionWrapper,
+.NCSSCFormInput {
+	flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+}
+.NCSShortCodeFormLeft,
+.NCSShortCodeFormRight,
+.NCSFormIPIndividual,
+.ncsShortCodeComments {
+	flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+}
+.NCSSCFormPrimaryInput {
+	flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+}
+.NCSSCFormOptions .NCSOptionChecker {
+	flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    -moz-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+}
+.NCSSCFormOptions label.NCSCheckboxLabel {
+	top: 0 !important;
+}
+.NCSShortCodeFormLeft {
+    width: 70%;
+}
+.NCSShortCodeFormRight {
+    width: 30%;   
+}
+.NCSSCFormPrimaryInput {
+	width: 67%;
+}
+.NCSSCFormOptions {
+	width: 33%;
+	padding: 0 1.5%;
+}
+.NCSFormIPIndividual {
+	width: 50%;
+}
+.NCSFormSCDiscMobile,
+.NCSSCFormdiscMobileBtn {
+	display:none;
+}
+.ncsShortCodeComments textarea {
+    height: 109px;
+}
+.NCSSCFormOptions h5 {
+    color: #2d96cd;
+    margin: 0 0 4% 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.NCSSCFormOptions h5 span {
+    color: #a3a3a3;    
+}
+.NCSSCFormOptions .NCSOptionText {
+	font-size: 14px;
+	padding-left: 5px;
+	white-space: nowrap;
+}
+.NCSShortCodeFormOptionWrapper label {
+    color: #2d96cd;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.NCSShortCodeFormOptionWrapper input,
+.NCSShortCodeFormOptionWrapper textarea {
+    background-color: #f6f6f6;
+    border: none;
+    font-size: 14px;
+    line-height: 1;
+    padding: 4% 2.5%;
+}
+html[data-btype *= 'Firefox'] .NCSShortCodeFormOptionWrapper input,
+html[data-btype *= 'Firefox'] .NCSShortCodeFormOptionWrapper  textarea,
+html[data-btype *= 'Edge'] .NCSShortCodeFormOptionWrapper input,
+html[data-btype *= 'Edge'] .NCSShortCodeFormOptionWrapper  textarea {
+	padding: 8px 2.5%;
+}
+.NCSShortCodeFormOptionWrapper input:focus,
+.NCSShortCodeFormOptionWrapper textarea:focus {
+	outline: none;
+}
+.NCSFormIPIndividual {
+    padding: 0 5px;
+}
+.NCSFormIPIndividual:nth-child(odd) {
+    padding: 0 5px 0 0;
+}
+.NCSFormIPIndividual:nth-child(3n),
+.NCSFormIPIndividual:nth-child(4n) {
+    padding-top: 1.5%;
+}
+.NCSSCFormPrimaryInput .NCSFormIPIndividual p {
+    padding: 3px 0 0 0;
+}
+.NCSFormSCDisc p {
+	font-size: 12px !important;
+    margin: 0 !important;
+    padding: 1% 1.5% 0 0 !important;
+}
+.NCSShortCodeFormRight .ncsFormSubmit {
+    padding: 4% 0;
+    display: table;
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 1;
+}
+html[data-btype *= 'rv:11.0'] .NCSShortCodeFormRight .ncsFormSubmit,
+html[data-btype *= 'Edge'] .NCSShortCodeFormRight .ncsFormSubmit {
+	display: block;
+}
+.NCSShortCodeFormRight a {
+	font-size: 10px;
+}
+.NCSSCFormOptionsCenterDiv label.NCSCheckboxLabel:after {
+	width: 11px !important;
+    height: 6px !important;
+	top: 1px !important;
+    left: 0 !important;
+}
+@media(max-width:1250px){
+	.NCSShortCodeFormOptionWrapper label,
+	.NCSSCFormOptions h5,
+	.NCSSCFormOptions .NCSOptionText,
+	.NCSShortCodeFormOptionWrapper input, 
+	.NCSShortCodeFormOptionWrapper textarea {
+		font-size: 12px;
+	}
+	.NCSFormSCDisc p {
+		font-size: 10px !important;
+	}
+	.NCSShortCodeFormRight .ncsFormSubmit,
+	.NCSShortCodeFormRight a {
+		font-size: 9px;
+	}
+}
+@media(max-width:1150px){
+	.NCSShortCodeFormOptionWrapper label, 
+	.NCSSCFormOptions h5, 
+	.NCSSCFormOptions .NCSOptionText, 
+	.NCSShortCodeFormOptionWrapper input, 
+	.NCSShortCodeFormOptionWrapper textarea {
+	    font-size: 11px;
+	}
+	.NCSFormSCDisc p {
+	    font-size: 9px !important;
+	}
+	.NCSShortCodeFormRight .ncsFormSubmit, 
+	.NCSShortCodeFormRight a {
+	    font-size: 8px;
+	}
+	.specialsShortCodeFormContainer {
+	    display: none;
+	    padding: 0 1.5% 1.5% 1.5%;
+	}
+}
+@media(max-width:1024px){
+	.NCSShortCodeFormOptionWrapper label, 
+	.NCSSCFormOptions h5, 
+	.NCSSCFormOptions .NCSOptionText, 
+	.NCSShortCodeFormOptionWrapper input, 
+	.NCSShortCodeFormOptionWrapper textarea {
+	    font-size: 1.1vw;
+	}
+	.NCSFormSCDisc p {
+	    font-size: 1vw !important;
+	}
+	.NCSShortCodeFormRight .ncsFormSubmit, 
+	.NCSShortCodeFormRight a {
+	    font-size: .8vw;
+	}
+}
+@media(max-width:850px){
+	.NCSShortCodeFormOptionWrapper {
+		padding: 2% 5% 1.5% 5%;
+	}
+	.specialsShortCodeFormContainer form {
+	    border-bottom: 1px solid #000;
+	}
+	.NCSShortCodeFormOptionWrapper, .NCSSCFormInput {
+	    flex-flow: column nowrap;
+	    -webkit-flex-flow: column nowrap;
+	    -moz-flex-flow: column nowrap;
+	    -ms-flex-flow: column nowrap;
+	}
+	.NCSFormSCDisc {
+		display: none;
+	}
+	.NCSShortCodeFormLeft,
+	.NCSShortCodeFormRight,
+	.NCSSCFormPrimaryInput,
+	.NCSSCFormOptions,
+	.NCSFormIPIndividual {
+		width: 100%;
+	}
+	.NCSFormIPIndividual,
+	.NCSFormIPIndividual:nth-child(3n), 
+	.NCSFormIPIndividual:nth-child(4n),
+	.NCSFormIPIndividual:nth-child(odd) {
+		padding: 0 0 2% 0;
+	}
+	html[data-btype*='Edge'] .NCSFormIPIndividual,
+	html[data-btype*='Edge'] .NCSFormIPIndividual:nth-child(3n), 
+	html[data-btype*='Edge'] .NCSFormIPIndividual:nth-child(4n),
+	html[data-btype*='Edge'] .NCSFormIPIndividual:nth-child(odd) {
+		padding: 0 0 5px 0;
+	}
+	.NCSShortCodeFormOptionWrapper input, 
+	.NCSShortCodeFormOptionWrapper textarea {
+		padding: 2% 1.5%;
+	}
+	.NCSSCFormOptions,
+	.NCSSCFormdiscMobileBtn {
+		display: flex;
+    	display: -ms-flexbox;
+    	display: -webkit-flex; 
+    	justify-content: center;
+    	-webkit-justify-content: center;		
+	}
+	.NCSSCFormOptions {
+		padding: 2% 0;
+	}
+	html[data-btype*='Edge'] .NCSSCFormOptions {
+		padding: 10px 0;
+	}
+	.NCSSCFormOptions h5 {
+		text-align: center;
+	}
+	.ncsShortCodeComments {
+	    display: none;
+	}
+	.NCSSCFormdiscMobileBtn {
+	    padding: 1% 0 2% 0;
+	}
+	html[data-btype *= 'Firefox'] .NCSSCFormdiscMobileBtn,
+	html[data-btype *= 'Edge'] .NCSSCFormdiscMobileBtn {
+	    padding: 4px 0 8px 0;
+	}	
+	.NCSSCFormdiscMobileBtn span {
+	    font-size: 12px;
+	    color: #a3a3a3;
+	    cursor: pointer;
+	}
+	p.formDisclaimerMobile {
+		font-size: 10px;
+	    padding-bottom: 2%;
+	}
+	.NCSShortCodeFormOptionWrapper label,	 
+	.NCSShortCodeFormOptionWrapper input, 
+	.NCSShortCodeFormOptionWrapper textarea {
+	    font-size: 12px;
+	}
+	.NCSSCFormOptions h5,
+	.NCSSCFormOptions .NCSOptionText {
+		font-size:16px;
+	}
+	.NCSShortCodeFormRight .ncsFormSubmit, 
+	.NCSShortCodeFormRight a {
+	    font-size: 12px;
+	    white-space: nowrap;
+	}
+	/*.NCSSCFormOptionsCenterDiv label.NCSCheckboxLabel:after {
+		width: 12px !important;
+	    height: 7px !important;
+	    top: 2px !important;
+	    left: 1px !important;
+	}
+	.specialsShortCodeFormContainer .specialCTAs {
+	    padding: 1.5% 3%;
+	}
+	.viewInventory, 
+	.valueTrade,
+	.NCSShortCodeFormRight .ncsFormSubmit {
+		padding: 3% 0;
+	}
+}
+@media(max-width:550px){
+	.NCSShortCodeFormOptionWrapper input, 
+	.NCSShortCodeFormOptionWrapper textarea {
+	    padding: 1.5%;
+	}
+	.NCSSCFormOptions h5, 
+	.NCSSCFormOptions .NCSOptionText {
+	    font-size: 14px;
+	}
+	.NCSShortCodeFormRight .ncsFormSubmit, 
+	.NCSShortCodeFormRight a {
+	    font-size: 10px;
+	    white-space: nowrap;
+	}
+}
+@media(max-width:450px){
+	.NCSShortCodeFormOptionWrapper label, 
+	.NCSShortCodeFormOptionWrapper input, 
+	.NCSShortCodeFormOptionWrapper textarea,
+	.NCSSCFormdiscMobileBtn span {
+	    font-size: 10px;
+	}
+	.NCSSCFormOptions h5, .NCSSCFormOptions .NCSOptionText {
+	    font-size: 12px;
+	}
+	.NCSShortCodeFormRight .ncsFormSubmit, .NCSShortCodeFormRight a {
+	    font-size: 10px;
+	    white-space: nowrap;
+	}
+	p.formDisclaimerMobile {
+		font-size: 8px;
+	}
+	.NCSSCFormOptionsCenterDiv .NCSOptionChecker input,
+	.NCSSCFormOptionsCenterDiv .NCSCheckboxLabel {
+		width: 12px;
+		height: 12px;
+	}
+	.NCSSCFormOptionsCenterDiv label.NCSCheckboxLabel:after {
+		width: 10px;
+		height: 5px;
+	}
+}
+@media(max-width:400px){	
+	.NCSSCFormOptions h5, .NCSSCFormOptions .NCSOptionText {
+	    font-size: 10px;
+	}
+	.NCSShortCodeFormRight .ncsFormSubmit, .NCSShortCodeFormRight a {
+	    font-size: 8px;
+	    white-space: nowrap;
+	}
+}*/
+/**
+*Pop-Up Form
+**/
+.ncsReactFormBackdrop {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: rgba(0,0,0, .5);
+}
+.specialsFormContainer {
+	letter-spacing: -.5px;
+	background:#ffffff; 
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);	
+    -webkit-transform: translate(-50%, 0);	
+    -ms-transform: translate(-50%, 0);	
+    -moz-transform: translate(-50%, 0);
+	width: 650px;
+	padding: 20px 25px;
+	z-index: 999999999;
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+	text-align:center;
+	color: #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box; 
+	border: 1px solid rgba(0,0,0, .5);  
+}
+.reactSpecialsFormContainer {
+	letter-spacing: -.5px;
+	background:#ffffff; 
+	position: absolute;
+	top: 50.09%;
+    left: 50.09%;
+    transform: translate(-50.09%, 0);	
+    -webkit-transform: translate(-50.09%, 0);	
+    -ms-transform: translate(-50.09%, 0);
+    -moz-transform: translate(-50.09%, 0);
+	width: 650px;
+	padding: 20px 25px;
+	z-index: 999999999;
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+	text-align:center;
+	color: #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;   
+	border: 1px solid rgba(0,0,0, .5); 
+}
+.close-dialog {
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+.formTitle {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+.formTitle h4 {
+    font-size: 16px;
+    line-height: 1.2;
+    margin: .5em 0;
+}
+h4 .speacliasFormHeaderOne {
+    font-weight: 400;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+}
+h4 .speacliasFormHeaderTwo {
+    font-weight: bold;
+    font-family: 'Antenna-Bold', 'Open Sans', Helvetica !important;
+}
+.FormClickCall {
+    width: 225px;
+    display: block;
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 20px;
+}
+.FormClickCall a {
+	font-size: 18px;	
+	display: flex;
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.FormClickCall img {
+	height: auto;
+    max-width: 100%;
+    align-self: center;
+    -webkit-align-self: center;
+    border-radius: 50% !important;
+    box-shadow: none !important;
+    width: 45px;
+}
+.FormClickCall span {	
+    align-self: center;
+    -webkit-align-self: center;
+    font-size: 16px;
+    font-weight: 900;
+}
+.FormClickCallOr {
+	font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    font-family: 'Antenna-Bold', 'Open Sans', Helvetica !important;
+    padding: 15px 0;
+    text-align: center;
+}
+.NCSFormOptionWrapper input[type=text],
+.NCSFormOptionWrapper input[type=email],
+.NCSFormOptionWrapper textarea {
+    text-align: left;
+    width: 96%;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    border: 1px solid #e6e6e6e6;   
+    border-radius: 0;
+    margin-bottom: 5px !important;
+    margin: 0;
+    color: #000;
+    box-sizing: content-box;
+    background-color: #e6e6e6e6;
+    padding: 3px 5px;
+}
+.NCSFormOptionWrapper input[type=text],
+.NCSFormOptionWrapper input[type=email] {
+	height: 25px !important;
+}
+.NCSFormOptionWrapper textarea {
+	height: 80px !important;
+}
+.NCSFormOptionWrapper input:focus,
+.NCSFormOptionWrapper textarea:focus {	
+    outline: none;
+}
+.NCSFormOptionWrapper input::-webkit-input-placeholder { 
+	color: #a3a3a3 !important;
+} 
+.NCSFormOptionWrapper input::-moz-placeholder {
+  color: #a3a3a3 !important;
+}
+.NCSFormOptionWrapper input::-ms-input-placeholder { 
+  color: #a3a3a3 !important;
+}
+.NCSFormOptionWrapper input::-moz-placeholder { 
+  color: #a3a3a3 !important;
+}
+.NCSFormOptionWrapper textarea::-webkit-input-placeholder { 
+	color: #a3a3a3 !important;
+} 
+.NCSFormOptionWrapper textarea::-moz-placeholder {
+  color: #a3a3a3 !important;
+}
+.NCSFormOptionWrapper textarea::-ms-input-placeholder { 
+  color: #a3a3a3 !important;
+}
+.NCSFormOptionWrapper textarea::-moz-placeholder { 
+  color: #a3a3a3 !important;
+}
+.NCSFormOptionWrapper {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    margin-bottom: 15px;
+}
+.ncsFormOptionIndividual {
+    text-align: left;
+}
+label.ncsFormOptionLabel {
+    font-weight: 900;
+    font-family: 'Antenna-Bold', Arial;   
+    font-size: 14px; 
+}
+span.FormGrey {
+	color: #a3a3a3 !important;
+}
+.NCSFormOptionWrapperOne,
+.NCSFormOptionWrapperTwo {
+    width: 50%;
+}
+.NCSFormOptionWrapperOne {
+    padding: 0 2% 0 0;
+}
+.NCSFormOptionWrapperTwo {
+    padding: 0 0 0 2%;
+}
+.NCSRequiredFormParagraph {
+	font-size: 12px;
+	line-height: 1.5 !important;
+	color: #c00;	
+	padding-bottom: 0;
+    margin: 0 !important;
+}
+.NCSFormPickOne {
+	margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    font-family: 'Antenna-Bold', 'Open Sans', Helvetica !important;
+    text-align: center;
+}
+.NCSFormOptions {    
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    margin: auto;
+    padding: 15px 0;
+}
+.NCSFormOptionsCenterDiv {
+	align-self: center;
+	-webkit-align-self: center;
+}
+.NCSFormOptions h5 {
+    font-size: 14px !important;
+    margin: 0 0 10px 0 !important;
+    line-height: 16px !important;
+    font-weight: 900 !important;
+}
+span.FormGrey {
+	color: #a3a3a3;
+}
+.NCSIndividualOptions {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	font-size:14px;
+	line-height:16px;
+	margin: 0 0 5px 0;
+}
+.NCSOptionChecker {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    position: relative;
+}
+.NCSOptionChecker input {
+	align-self: center;
+	margin: 0;
+    font: inherit;
+    color: inherit;
+    width: 14px;
+    height: 14px;
+    opacity: 0;
+    z-index: 999;
+    cursor:pointer;
+}
+label.NCSCheckboxLabel {
+    position: absolute;
+    background-color:#fff;
+    width: 14px;
+    height: 14px;
+    outline: 1px solid;
+    top: 1px;
+    left: 0;
+    cursor:pointer; 
+    z-index: 99;   
+}
+.NCSOptionChecker input:hover + .NCSCheckboxLabel,
+.NCSOptionChecker input:focus + .NCSCheckboxLabel {
+	outline: 1px solid;
+}
+.NCSOptionChecker input[type=checkbox]:checked + label.NCSCheckboxLabel:after {
+    opacity: 1;
+}
+label.NCSCheckboxLabel:after {
+	content: '';	
+    width: 12px;
+    height: 6px;
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    border: 3px solid;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+button.ncsFormSubmit {
+    color: #fff !important;
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    font-weight: 400;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+}
+p.ncsBottmError {
+    line-height: 2.5;
+}
+p.formDisclaimer {
+    font-size: 12px;
+    padding: 0;
+    margin: 15px 0 0 0 !important;
+}
+@media(max-width: 700px) {
+	.specialsFormContainer,
+	.reactSpecialsFormContainer {
+		width: 290px;
+	}
+	.NCSFormOptionWrapper {
+		flex-flow: column nowrap;
+		-webkit-flex-flow: column nowrap;
+	}
+	.NCSFormOptionWrapperOne, 
+	.NCSFormOptionWrapperTwo {
+		width: 100%;
+		padding: 0;
+	}
+	.NCSFormOptionWrapper input[type=text], 
+	.NCSFormOptionWrapper input[type=email], 
+	.NCSFormOptionWrapper textarea {
+		width: 227px;
+	}
+	.formTitle h4 {
+		margin: 1.5em 0 .5em 0;
+	}
+	p.formDisclaimer {
+		display: none;
+	}
+}
+@media(max-width: 500px) {
+	.specialsFormContainer,
+	.reactSpecialsFormContainer {
+		padding: 15px 25px;
+	}
+	.formTitle h4 {
+		font-size: 14px;
+	}
+	.formTitle {
+		padding-bottom: 5px;
+	}
+	.close-dialog {
+		font-size: 12px;
+		line-height: 12px;
+	}
+	.FormClickCall {
+	    width: 170px;	    
+	    padding: 5px 12px;
+	}
+	.FormClickCall img {
+		width: 35px;
+	}
+	.FormClickCall span {
+		font-size: 14px;
+	}	
+	.FormClickCallOr {
+		padding: 8px 0;
+	}
+	.NCSFormOptions {
+		padding: 8px 0;
+	}
+	.NCSFormOptionWrapper {
+		margin-bottom: 5px;
+	}
+	.NCSFormOptionWrapper input[type=text], 
+	.NCSFormOptionWrapper input[type=email], 
+	.NCSFormOptionWrapper textarea {
+		font-size: 14px !important;
+    	line-height: 16px !important;
+	}
+	.NCSFormOptionWrapper input[type=text], 
+	.NCSFormOptionWrapper input[type=email] {
+	    height: 18px !important;
+	}
+	.NCSFormOptionWrapper textarea {
+	    height: 60px !important;
+	}
+}
+/*@media(max-height:900px){
+	.specialsFormContainer {
+		position: absolute;
+	}
+}
+@media(max-width:850px){
+	.specialsFormContainer {
+		position: absolute;
+	}
+	.FormClickCallWrap {
+	    display: block;
+	}
+}*/
+@media screen and (min-height: 900px) {
+	.reactSpecialsFormContainer {		 
+		position: fixed !important;
+		top: 50.09% !important;
+	    transform: translate(-50.09%, -50.09%);	
+	    -webkit-transform: translate(-50.09%, -50.09%);	
+	    -ms-transform: translate(-50.09%, -50.09%);
+	    -moz-transform: translate(-50.09%, -50.09%);	
+	    margin-bottom: 20px;	
+	}
+	.specialsFormContainer {
+		top: 50% !important;
+    	transform: translate(-50%, -50%);	
+    	-webkit-transform: translate(-50%, -50%);	
+    	-ms-transform: translate(-50%, -50%);	
+    	-moz-transform: translate(-50%, -50%);
+    	position: fixed !important;
+    	margin-bottom: 20px;
+	}
+}
+/*===============================================================================================================
+# Thank You Page Template
+  ===============================================================================================================*/
+.NCSThankYouPage {
+	margin: 30px 0;		
+}
+#thankYouContent {
+    text-align: center;
+    display:block;
+    font-weight: 400;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);*/
+    line-height: 1.5;
+}
+.NCSThankYou {
+    max-width: 780px;
+    margin: auto;
+}
+.NCSThanksTopImgVidWrap {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+	justify-content: center;
+    -webkit-justify-content: center;
+	/*max-height: 220px;*/
+}
+.NCSThanksImg,
+.NCSThanksVid {
+    width: 50%;
+    margin: 0 1.5%;
+    
+}
+.NCSThanksVid iframe {
+	width:100%;
+	height:100%;	
+}
+.NCSThanksImg img {
+	width:100%;
+	max-height:100%;
+	display:block;
+}
+.NCSThanksLearnMore {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-top: 2%;
+}
+.NCSThankYouPage a {
+    font-size: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    display: table;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+}
+.NCSThankYouPage a:hover {
+	color: #fff;
+}
+.NCSThanksMainText {
+    max-width: 450px;
+    margin: 40px auto;
+    position: relative;
+    z-index: 99;
+}
+.NCSThanksHead {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.NCSThanksHeadTwo {
+    font-size: 14px;
+    font-weight: 400;
+}
+.ncsPageTitleBold {
+    font-weight: 900;
+}
+.NCSThanksEntry-Content p {
+    font-size: 14px;
+    padding: 0;
+}
+.NCSThanksEntry-Content {
+    padding-top: 25px;
+    text-align: justify;
+}
+.NCSThanksBrandIMG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    opacity: .05;
+    width: 100%;
+    z-index: 1;
+}
+.NCSThanksLinks,
+.NCSDanceLink {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.NCSThanksLinksWrap,
+.NCSThanksDance {
+    max-width: 450px;
+    margin: auto;
+    font-size: 14px;
+}
+.NCSThanksDance {
+    margin: 40px auto 0 auto;
+}
+.NCSThanksDanceTXT p {
+	padding-bottom: 1.5em;
+}
+.NCSThanksLinksTXT p {
+    padding: 0 0 4px 0;
+    font-size: 12px;
+}
+.NCSThanksLinks a {
+    margin: 0 6px;
+    width: 30.8%;
+    padding: 10px 0;
+}
+.NCSDanceLink a {
+    width: 30.67%;
+    padding: 10px 0;
+}
+@media (max-width:700px){
+	.NCSThankYouPage {
+		margin: 3% 0;		
+	}
+}
+@media (max-width:600px){
+	.NCSThankYouPage {
+		padding: 0 3%;		
+	}
+	.NCSThanksImg, .NCSThanksVid {
+	    width: 100%;
+	    margin: 0 0 1.5% 0;
+	}
+	.NCSThanksTopImgVidWrap {
+		flex-flow: column nowrap;
+	    -webkit-flex-flow: column nowrap;
+	    -moz-flex-flow: column nowrap;
+	    -ms-flex-flow: column nowrap;
+	}
+	.NCSThanksImg {
+		display: none;
+	}
+}
+@media (max-width:500px){
+	.NCSThanksHeadTwo,
+	.NCSThanksEntry-Content p,
+	.NCSThanksDance {
+		font-size: 12px;
+	}
+	.NCSThanksLinksTXT p {
+		font-size: 10px;
+	}
+	.NCSThanksLinks a {
+    	margin: 0 3px;   
+	}
+	.NCSThanksEntry-Content {
+		padding-top: 15px;
+	}
+	.NCSThanksMainText {
+		margin: 20px auto;
+	}
+	.NCSThanksDance {
+	    margin: 20px auto 0 auto;
+	}
+	.NCSThanksDance {
+	    margin: 20px auto 0 auto;
+	}
+}
+@media(max-width:425px){
+	.NCSThankYouPage a {
+		font-size:8px;
+	}
+	.NCSThankYouPage {
+	    margin: 4% 0;
+	}
+}
+@media(max-width:350px){
+	.NCSThanksLinks a {
+    	margin: 0 2px;   
+	}
+}
+/*===============================================================================================================
+# Landing Page Template
+  ===============================================================================================================*/
+
+/*===============================================================================================================
+# New 2017 Landing Page Styles
+  ===============================================================================================================*/
+#vlp_main_div {
+    border: none;
+    margin: 0;
+    font-family: 'Antenna-Light', Helvetica;
+    color: #000;
+    letter-spacing: -.5px;   
+}
+.q_vlp.container-wide {
+    max-width: 100%;
+    padding: 0px;
+    width: 100%;
+}
+.vlp_top_parallax_container,
+.vlp_pricing_container_inner,
+.vlp_leasing_container,
+.vlp_save_up_to_container,
+.vlp_specials_links_container,
+.vlp_leasing_container,
+.vlp_save_up_to_container,
+.vlp_call_to_action,
+.vlp_cta_center,
+.vlp_inventory_header,
+.vlp_cta_sides,
+.vlp_invh_sides,
+.vlp_content_first,
+#vlp_the_content,
+.vlp_content_second,
+.vlp_vrp-listing { 
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+}
+.vlp_top_parallax_container {	
+	background-repeat: no-repeat;	
+    background-size: 100%;   
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;  
+    z-index: 1;    
+}
+.vlp_mobile_top,
+.vlp_title_lines {
+	display: none;
+}
+.vlp_title_lines hr {
+    width: 100%;
+    margin: 0;
+    height: 4px;
+    border: none;
+}
+.vlp_flex_bg_one {
+    width: 40%;
+}
+.vlp_title_h2 {
+	color: #fff;
+	width: 60%;
+	align-self: flex-end;
+	-webkit-align-self: flex-end;
+	text-align: center;	
+	padding: 1% 3%;	
+}
+.vlp_title_h2 h2 {
+	font-size: 67px;
+    font-size: 3.5vw;    
+	line-height: 1.5;
+	font-weight: 900;
+	font-family: 'Antenna-Bold', Helvetica;
+	white-space: nowrap;
+	color: #fff !important;
+}
+.vlp_title_span {
+	font-weight: 400;
+	font-family: 'Antenna-Light', Helvetica;
+}
+.vlp_top_container {
+	display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+	z-index: 10;
+	position: relative;	
+}
+.vlp_uppercase {
+	text-transform: uppercase;
+}
+.vlp_car_pic_container {
+    width: 47.5%;
+}
+.vlp_main_car_img {
+    max-width: 100%;
+    height: auto;
+    width: 50vw;
+    margin-top: -14.8%;
+    padding: 0 0 0 15.2%;
+}
+.vlp_specials_pricing_container,
+.vlp_pricing_container_left,
+.vlp_pricing_container_right,
+.vlp_quirk_price_container,
+.vlp_content_container {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+}
+.vlp_content_container {
+	display: block; /*ie 11 fix*/
+}
+.vlp_pricing_container_inner,
+.vlp_leasing_container,
+.vlp_save_up_to_container,
+.vlp_quirk_price_container,
+.vlp_specials_links_container,
+.vlp_cta_center h2,
+.vlp_cta_sides hr,
+.vlp_invh_sides hr,
+#vlp_the_content p,
+#vlp_secondary_content_field,
+.vlp_entry,
+.vlp_title_lines hr {
+	align-self: center;
+	-webkit-align-self: center;
+}
+.vlp_specials_pricing_container{	
+    width: 52.5%;
+    padding: 3.5% 2% 0 2%;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.vlp_pricing_container_inner {
+    width: 90%;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;    
+}
+.vlp_pricing_container_left,
+.vlp_pricing_container_right {	
+    width: 50%;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+.vlp_leasing_container {
+    padding-bottom: 2px;
+}
+.vlp_lease_title,
+.vlp_save_title {
+    font-size: 1.2vw;
+    line-height: 1.25;
+    padding: 0 10px 0 0;
+}
+.vlp_lease_price,
+.vlp_save_price {
+    font-size: 2vw;
+    line-height: .7;
+}
+span.vlp_l_dsign {
+    font-size: 1.4vw;
+    line-height: .8;
+    vertical-align: top;
+}
+span.vlp_lmonth {
+    font-size: 1.3vw;
+    line-height: .8;
+}
+.vlp_save_up_to_container {
+    margin-left: 2%;
+}
+.vlp_quirk_price_title {
+    font-size: 2vw;
+    line-height: 1.5;
+}
+.vlp_quirk_price {
+    font-size: 3.8vw;
+    line-height: 1;
+}
+span.vlp_q_dsign {
+    font-size: 2.3vw;
+    vertical-align: top;
+    line-height: 1.25;
+}
+.vlp_quirk_price_container {
+    text-align: center;
+}
+.vlp_specials_links_container {
+    width: 70%;    
+    padding: 5% 0 0 0;
+    font-size: .73vw;
+}
+.vlp_specials_links_container a {
+	display: table;
+	padding: 4% 0;
+}
+/*.vlp_specials_links_container .viewInventory, 
+.vlp_specials_links_container .valueTrade {
+	width: 30%;
+}*/
+.vlp_specials_links_container .getInfo {
+    width: 39.1%;
+}
+.vlp_specials_links_container .getInfo:hover {
+    cursor: pointer;
+}
+.vlp_call_to_action,
+.vlp_inventory_header {
+	position: relative;
+	text-align:center;
+	color: #000;
+	padding: 3% 0;
+}
+.vlp_cta_sides hr,
+.vlp_invh_sides hr {
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    height: 2px;
+    border: none;
+}
+.vlp_cta_center h2,
+.vlp_invh_center h2 {
+    font-size: 1.3vw;
+    white-space: nowrap;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.vlp_cta_center h2 span,
+.vlp_invh_center h2 span {
+	padding: 0 10px;
+}
+.vlp_content_container {
+    overflow: hidden;
+}
+.vlp_main_content,
+.vlp_secondary_content {
+	width: 53.5%;
+}
+.vlp_left_image,
+.vlp_right_image {
+	width: 46.5%;
+}
+.vlp_nested_img_left {
+    overflow: hidden;
+    transform: skewX(20deg);
+    margin: 0 0 0 -7%;
+}
+.vlp_img_left {
+    max-width: 100%;
+    height: auto;
+    transform: skewX(-20deg);
+    margin: 0 0 0 6.5%;
+    padding: 0;
+    display: block;
+}
+.vlp_content_second {
+    padding-top: 2.5%;
+}
+.vlp_nested_img_right {
+    overflow: hidden;
+    transform: skewX(20deg);
+    margin: 0 -7% 0 0;
+}
+.vlp_img_right { 
+    max-width: 100%;
+    height: auto;
+    transform: skewX(-20deg);
+    margin: 0 0 0 -6.5%;
+    padding: 0;
+    display: block;
+}
+#vlp_the_content,
+.vlp_secondary_content {   
+    font-size: 1.2vw;
+    text-align: center;
+    padding: 0 2.5%;
+}
+.vlp_entry {
+    margin: auto;
+    position: relative;
+    z-index: 99;
+    width: 90%;
+    max-width: 1400px;    
+}
+@media(max-width:1400px){
+	.vlp_main_car_img {
+		padding: 0 0 0 14.5%;
+	}
+	.vlp_specials_links_container {	    
+	    font-size: .8vw;
+	}
+}
+@media(max-width:1200px){	
+    .vlp_quirk_price_title {
+	    font-size: 2.1vw;	    
+	}
+	span.vlp_l_dsign { 
+    	line-height: .65;
+    }
+    span.vlp_q_dsign {
+	    font-size: 2.5vw;	    
+	    line-height: 1.3;
+	}
+    .vlp_quirk_price {
+	    font-size: 4vw;	   
+	}	
+}
+@media(max-width:1000px){
+	.vlp_pricing_container_inner {
+    	width: 95%;
+    }
+	.vlp_specials_links_container {
+	    font-size: 1vw;
+	}
+	.vlp_lease_title, 
+	.vlp_save_title {
+    	font-size: 1.4vw;
+    	line-height: 1.4;
+    }	
+    .vlp_lease_price, 
+    .vlp_save_price {
+	    font-size: 2.2vw;
+	    line-height: .9;
+	}
+	span.vlp_l_dsign, 
+	span.vlp_lmonth {
+	    font-size: 1.5vw;
+	    line-height: 1;
+	}
+	.vlp_quirk_price_title {
+	    font-size: 2.4vw;
+	}
+	span.vlp_q_dsign {
+	    font-size: 2.8vw;
+	    line-height: 1.25;
+	}
+	.vlp_quirk_price {
+	    font-size: 5vw;
+	}
+	.vlp_cta_center h2, 
+	.vlp_invh_center h2 {
+	    font-size: 1.5vw;
+	}
+	#vlp_the_content, 
+	.vlp_secondary_content {
+    	font-size: 1.4vw;
+    }
+}
+@media(max-width:875px){	
+	.vlp_specials_links_container {
+	    font-size: 1.1vw;
+	}
+	.vlp_cta_center h2, 
+	.vlp_invh_center h2 {
+	    font-size: 1.6vw;
+	}
+	#vlp_the_content, .vlp_secondary_content {
+	    font-size: 1.5vw;
+	}
+}
+@media(max-width:768px){
+	.vlp_top_parallax_container,
+	.vlp_content_first {
+		flex-flow: column nowrap;
+    	-webkit-flex-flow: column nowrap;
+    	-moz-flex-flow: column nowrap;
+    	-ms-flex-flow: column nowrap;
+	}
+	.vlp_mobile_top,
+	.vlp_top_parallax_container,
+	.vlp_specials_pricing_container, 
+	.vlp_content_container,
+	.vlp_content_first {
+		display: block;
+	}
+	.vlp_top_parallax_container {
+		background-image: none !important;		
+	}
+	.vlp_flex_bg_one,
+	.vlp_title_h2,
+	.vlp_pricing_container_inner,
+	.vlp_specials_links_container {
+	    width: 100%;
+	}
+	.vlp_title_center {
+		width: 60%;
+	}
+	.vlp_title_lines {
+		width: 20%;
+	}
+	.vlp_title_h2 {
+		padding: 3% 0;
+		color: #075c9a;
+	}
+	.vlp_title_h2 h2 {
+		font-size: 25px;
+		font-size: 4.45vw;		
+	}
+	.vlp_specials_pricing_container {
+	    padding: 3.5%;
+	}	
+	.vlp_title_lines,
+	.vlp_title_h2 {
+		display: flex;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    flex-flow: row nowrap;
+	    -webkit-flex-flow: row nowrap;
+	    -moz-flex-flow: row nowrap;
+	    -ms-flex-flow: row nowrap;
+	}	
+	.vlp_title_span_wrapper {
+		padding: 0 10px;
+	}
+	.vlp_title_span {
+		font-weight: 900;
+		font-family: 'Antenna-Bold', Helvetica;
+	}
+	.vlp_mobile_top {	    
+	    width: 100%;
+	    height: auto;
+	}
+	.vlp_car_pic_container {
+	    display: none;
+	}
+	.vlp_specials_links_container {
+	    font-size: 2.6vw;
+	}
+	.vlp_specials_links_container .viewInventory, 
+	.vlp_specials_links_container .valueTrade {
+		margin: 0 1.5% 0 0;
+	}
+	.vlp_pricing_container_left {
+		width: 57%;
+	}
+	.vlp_pricing_container_right {
+		width: 43%;
+	}
+	.vlp_specials_pricing_container,
+	.vlp_left_image,
+    #vlp_the_content, 
+    .vlp_secondary_content {
+    	width: 100%;
+    }
+    .vlp_content_container {
+	    padding: 0 0 2% 0;	    
+	}	
+    #vlp_the_content {
+	    padding: 3% 3.5% 0 3.5%;
+	}	
+	.vlp_secondary_content {
+		padding: 0 3.5%;
+	}
+	.vlp_content_container p {
+	    font-size: 20px;
+	}
+    .vlp_nested_img_left,
+    .vlp_img_left {
+    	transform: none;
+    	margin: 0;
+    }   
+    .vlp_right_image {
+    	display: none;
+	}	
+	.vlp_cta_center h2, .vlp_invh_center h2 {
+		font-size: 20.3px;
+		font-size: 3.5vw;
+	}
+	.vlp_lease_title, 
+	.vlp_save_title {
+	    font-size: 3vw;
+	    line-height: 1.8;
+	}
+	.vlp_lease_price, 
+	.vlp_save_price {
+	    font-size: 6vw;	    
+	}
+	span.vlp_l_dsign, 
+	span.vlp_lmonth {
+	    font-size: 3.5vw;
+	    line-height: 1.1;
+	}
+	.vlp_quirk_price_title {
+	    font-size: 4.75vw;
+	}
+	.vlp_quirk_price {
+	    font-size: 8.5vw;
+	}
+	span.vlp_q_dsign {
+	    font-size: 5.2vw;	    
+	}
+}
+@media(max-width:550px){
+	.vlp_content_container p {
+	    font-size: 18px;
+	}
+}
+@media(max-width:450px){
+	span.vlp_l_dsign, 
+	span.vlp_lmonth {
+		line-height: 1;
+	}	
+}
+@media(max-width:400px){
+	.vlp_content_container p {
+	    font-size: 16px;
+	}
+}
+@media(max-width:350px){
+	.vlp_specials_links_container {
+	    font-size: 3vw;
+	}
+}
+/*.qsPage {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    align-content: center;
+    max-width: 1120px;
+    margin: auto;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 1.5;
+    letter-spacing: -.5px;
+}
+.qsPage div {
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+}
+.NCS {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding: 2% 0;
+}
+.NCS h2{
+	margin: 0;
+}
+.NCS a{
+	color: initial;
+	text-decoration: none;
+}
+.IndivSpecial {
+    padding: 2%;
+    border: 1px solid #000;
+    margin: 1%;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.ncs_img img {
+	max-width: 100%;
+}
+.ncs_specialpricing {
+	width: 250px;
+	margin: 10px auto;
+	line-height: 1.5;
+	color: #333;
+	table-layout: fixed; 
+	border-collapse: collapse;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #000;
+}
+.ncs_specialpricing td {
+    width: 50%;
+}
+.ncs_specialpricing tr:nth-child(odd) {
+	background: #cccccc;
+}
+.ncs_btns {
+	padding-top: 10px;
+	display: flex;
+}
+.ncs_btns a{
+    color: #fff !important;
+    background-color: #3b3b3b;
+    padding: 4% 0;
+    width: 33%;
+    margin: 0 1% 0 0;
+    text-align: center;
+    display: table;
+    font-size: 12px;
+}*/

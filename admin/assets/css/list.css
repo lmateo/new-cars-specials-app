@@ -1,0 +1,790 @@
+/* == List == */
+ul.wojo.list,
+ol.wojo.list,
+.wojo.list {
+  list-style-type: none;
+  margin: 1em 0;
+  padding: 0
+}
+ul.wojo.list ul,
+ol.wojo.list ol,
+.wojo.list .list {
+  margin: 0;
+  padding: .5em 0 .5em 1em
+}
+ul.wojo.list:first-child,
+ol.wojo.list:first-child,
+.wojo.list:first-child {
+  margin-top: 0
+}
+ul.wojo.list:last-child,
+ol.wojo.list:last-child,
+.wojo.list:last-child {
+  margin-bottom: 0
+}
+/* == Content == */
+ul.wojo.list li,
+ol.wojo.list li,
+.wojo.list .item {
+  display: list-item;
+  list-style-type: none;
+  list-style-position: inside;
+  padding: .3em 0;
+  line-height: 1.2
+}
+.wojo.list .item:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.wojo.list .list {
+  clear: both
+}
+.wojo.list .item {
+  vertical-align: middle
+}
+/* == Icon == */
+.wojo.list .item > .icon {
+  display: block;
+  float: left;
+  margin: 0 1em 0 0;
+  padding: .1em 0 0
+}
+.wojo.list .item > .icon:only-child {
+  display: inline-block
+}
+.wojo.horizontal.list .item > .icon {
+  margin: 0;
+  padding: 0 .25em 0 0
+}
+.wojo.horizontal.list .item > .icon,
+.wojo.horizontal.list .item > .icon + .content {
+  float: none;
+  display: inline-block
+}
+.wojo.list .item.active {
+  background-color: #9ACA40;
+  color: #fff;
+}
+.wojo.list .item.highlite {
+  background-color: rgba(79,193,233,0.20);
+}
+.wojo.list .item.negative {
+  background-color: rgba(210,91,91,0.20);
+}
+.wojo.list .item.positive {
+  background-color: rgba(154,202,64,0.20);
+}
+/* == Image == */
+.wojo.list .item > img {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  vertical-align: middle
+}
+.wojo.list .item > .content {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.2
+}
+.wojo.list .item > .icon + .content {
+  display: table-cell;
+  vertical-align: top
+}
+.wojo.list a {
+  cursor: pointer
+}
+.wojo.list a .icon {
+  color: rgba(0,0,0,0.6);
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease
+}
+.wojo.list .header {
+  font-family: 'WojoSansRegular';
+}
+.wojo.list .description {
+  color: rgba(0,0,0,0.5)
+}
+.wojo.list .item > .left.floated {
+  margin-right: 1em;
+  float: left
+}
+.wojo.list .item > .right.floated {
+  margin-left: 1em;
+  float: right
+}
+/* == Types == */
+.wojo.horizontal.list {
+  display: inline-block;
+  font-size: 0
+}
+.wojo.horizontal.list > .item {
+  display: inline-block;
+  margin-left: 1em;
+  font-size: 1rem
+}
+.wojo.horizontal.list > .item:first-child {
+  margin-left: 0
+}
+.wojo.horizontal.list .list {
+  padding-left: 0;
+  padding-bottom: 0
+}
+.wojo.list a:hover .icon {
+  color: rgba(0,0,0,0.8)
+}
+/* == Link == */
+.wojo.link.list .item {
+  color: rgba(0,0,0,0.3)
+}
+.wojo.link.list a.item,
+.wojo.link.list .item a {
+  color: rgba(0,0,0,0.5)
+}
+.wojo.link.list a.item:hover,
+.wojo.link.list .item a:hover {
+  color: rgba(0,0,0,0.8)
+}
+.wojo.link.list a.item:active,
+.wojo.link.list .item a:active {
+  color: #fff
+}
+.wojo.link.list a.active.item,
+.wojo.link.list .active.item a {
+  color: #fff
+}
+/* == Selection == */
+.wojo.selection.list .item {
+  cursor: pointer;
+  color: rgba(0,0,0,0.4);
+  padding: .5em;
+  -webkit-transition: .2s color ease, .2s padding-left ease, .2s background-color ease;
+  transition: .2s color ease, .2s padding-left ease, .2s background-color ease
+}
+.wojo.selection.list .item:hover {
+  background-color: rgba(0,0,0,0.02);
+  color: rgba(0,0,0,0.7)
+}
+.wojo.selection.list .item:active {
+  background-color: rgba(0,0,0,0.05);
+  color: rgba(0,0,0,0.7)
+}
+.wojo.selection.list .item.active {
+  background-color: rgba(0,0,0,0.04);
+  color: rgba(0,0,0,0.7)
+}
+.wojo.animated.list .item {
+  -webkit-transition: .2s color ease, .2s padding-left ease, .2s background-color ease;
+  transition: .2s color ease, .2s padding-left ease, .2s background-color ease
+}
+.wojo.animated.list:not(.horizontal) .item:hover {
+  padding-left: 1em
+}
+.wojo.animated.list:not(.horizontal) .item:hover .item:hover {
+  padding-left: .5em
+}
+/* == Bulleted == */
+ul.wojo.list,
+.wojo.bulleted.list {
+  margin-left: 1.5em
+}
+ul.wojo.list li,
+.wojo.bulleted.list .item {
+  position: relative
+}
+ul.wojo.list li:before,
+.wojo.bulleted.list .item:before {
+  position: absolute;
+  left: -1.5em;
+  content: '•';
+  line-height: 1.2rem;
+  vertical-align: top
+}
+ul.wojo.list ul,
+.wojo.bulleted.list .list {
+  padding-left: 1.5em
+}
+ul.wojo.horizontal.bulleted.list,
+.wojo.horizontal.bulleted.list {
+  margin-left: 0
+}
+ul.wojo.horizontal.bulleted.list li,
+.wojo.horizontal.bulleted.list .item {
+  margin-left: 1.5em
+}
+ul.wojo.horizontal.bulleted.list li:before,
+.wojo.horizontal.bulleted.list .item:before {
+  left: -.9em
+}
+ul.wojo.horizontal.bulleted.list li:first-child,
+.wojo.horizontal.bulleted.list .item:first-child {
+  margin-left: 0
+}
+ul.wojo.horizontal.bulleted.list li:first-child::before,
+.wojo.horizontal.bulleted.list .item:first-child::before {
+  display: none
+}
+/* == Ordered == */
+ol.wojo.list,
+.wojo.ordered.list {
+  counter-reset: ordered;
+  margin-left: 2em;
+  list-style-type: none
+}
+ol.wojo.list li,
+.wojo.ordered.list .item {
+  list-style-type: none;
+  position: relative
+}
+ol.wojo.list li:before,
+.wojo.ordered.list .item:before {
+  position: absolute;
+  left: -2em;
+  counter-increment: ordered;
+  content: counters(ordered, ".");
+  text-align: right;
+  vertical-align: top;
+  opacity: 0.75
+}
+ol.wojo.list ol,
+.wojo.ordered.list .list {
+  counter-reset: ordered;
+  padding-left: 2.5em
+}
+ol.wojo.list ol li:before,
+.wojo.ordered.list .list .item:before {
+  left: -2.5em
+}
+ol.wojo.horizontal.list,
+.wojo.ordered.horizontal.list {
+  margin-left: 0
+}
+ol.wojo.horizontal.list li:before,
+.wojo.ordered.horizontal.list .item:before {
+  position: static;
+  margin: 0 .5em 0 0
+}
+/* == Divided == */
+.wojo.divided.list > .item,
+.wojo.divided.list:not(.horizontal) > .list {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding-left: .5em;
+  padding-right: .5em
+}
+.wojo.divided.list .item .menu .item {
+  border-width: 0
+}
+.wojo.divided.list .item:first-child {
+  border-top-width: 0
+}
+.wojo.divided.list:not(.horizontal) .list {
+  margin-left: -.5em;
+  margin-right: -.5em
+}
+.wojo.divided.list:not(.horizontal) .list .item {
+  padding-left: 1em;
+  padding-right: 1em
+}
+.wojo.divided.list:not(.horizontal) .list .item:first-child {
+  border-top-width: 1px
+}
+.wojo.divided.bulleted.list {
+  margin-left: 0
+}
+.wojo.divided.bulleted.list .item {
+  padding-left: 1.5em
+}
+.wojo.divided.bulleted.list .item:before {
+  left: .5em
+}
+.wojo.divided.ordered.list {
+  margin-left: 0
+}
+.wojo.divided.ordered.list > .item {
+  padding-left: 2em;
+  padding-right: 2em
+}
+.wojo.divided.ordered.list > .item:before {
+  left: .5em
+}
+.wojo.divided.ordered.list .item .list {
+  margin-left: -2em;
+  margin-right: -2em
+}
+.wojo.divided.horizontal.list {
+  margin-left: 0
+}
+.wojo.divided.horizontal.list > .item {
+  border-top: none;
+  border-left: 1px solid rgba(0,0,0,0.1);
+  margin: 0;
+  padding-left: .75em;
+  padding-right: .75em;/*line-height: 0.6*/
+}
+.wojo.horizontal.divided.list > .item:first-child {
+  border-left: none;
+  padding-left: 0
+}
+/* == Celled == */
+.wojo.celled.list > .item,
+.wojo.celled.list > .list {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding-left: .5em;
+  padding-right: .5em
+}
+.wojo.celled.list > .item:last-child {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.wojo.celled.list .item .list {
+  margin-left: -.5em;
+  margin-right: -.5em
+}
+.wojo.celled.list .item .list .item {
+  border-width: 0
+}
+.wojo.celled.list .list .item:first-child {
+  border-top-width: 0
+}
+.wojo.celled.bulleted.list {
+  margin-left: 0
+}
+.wojo.celled.bulleted.list > .item {
+  padding-left: 1.5em
+}
+.wojo.celled.bulleted.list > .item:before {
+  left: .5em
+}
+.wojo.celled.ordered.list {
+  margin-left: 0
+}
+.wojo.celled.ordered.list .item {
+  padding-left: 2em;
+  padding-right: 2em
+}
+.wojo.celled.ordered.list .item:before {
+  left: .5em
+}
+.wojo.celled.ordered.list .item .list {
+  margin-left: -2em;
+  margin-right: -2em
+}
+.wojo.horizontal.celled.list {
+  margin-left: 0
+}
+.wojo.horizontal.celled.list .item {
+  border-top: none;
+  border-left: 1px solid rgba(0,0,0,0.1);
+  margin: 0;
+  padding-left: .75em;
+  padding-right: .75em;
+  line-height: 0.6
+}
+.wojo.horizontal.celled.list .item:last-child {
+  border-bottom: none;
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+/* == Fitted == */
+ul.wojo.list,
+.wojo.list {
+  margin: 0;
+}
+/* == Project == */
+.wojo.project.list .header,
+.wojo.project.list .data {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5em;
+}
+.wojo.project.list .header {
+  font-family: 'WojoSansRegular';
+  width: 200px;
+}
+.wojo.project.list .wojo.header {
+  background-color: #CAE1E7;
+  width: auto;
+  display: block;
+  margin: 0;
+  border-radius: 0 0 .325em .325em;
+  box-shadow: 0 5px 0 0 #A0BEC6;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  padding: 1em;
+  font-size: 0.85em;
+  font-family: 'WojoSansRegular';
+}
+.wojo.project.list .content {
+  display: table;
+  box-shadow: inset 0 -1px 0 0 #E1E0E5;
+  width: 100%
+}
+.wojo.project.list a .icon {
+  color: #fff
+}
+/* == Relaxed == */
+.wojo.relaxed.list:not(.horizontal) .item {
+  padding-top: .5em;
+  padding-bottom: .5em
+}
+.wojo.relaxed.list .header {
+  margin-bottom: .25em
+}
+.wojo.horizontal.relaxed.list .item {
+  padding-left: 1.25em;
+  padding-right: 1.25em
+}
+.wojo.very.relaxed.list:not(.horizontal) .item {
+  padding-top: 1em;
+  padding-bottom: 1em
+}
+.wojo.very.relaxed.list .header {
+  margin-bottom: .5em
+}
+.wojo.horizontal.very.relaxed.list .item {
+  padding-left: 2em;
+  padding-right: 2em
+}
+/* == Block List == */
+.wojo.block.grid li {
+  position: relative;
+}
+.wojo.block.grid.divided li {
+  border-bottom: .5em solid #EFEFEF;
+  border-right: .5em solid #EFEFEF;
+}
+.wojo.block.grid.divided li .content {
+  padding: 1em;
+}
+.wojo.block.grid.divided li .dropdown {
+  float: right;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+/* == Sortable List == */
+.dd {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.dd-list {
+  display: block;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.dd-list .dd-list {
+  padding-left: 30px;
+}
+.dd-collapsed .dd-list {
+  display: none;
+}
+.dd-item,
+.dd-empty,
+.dd-placeholder {
+  display: block;
+  margin: 0;
+  min-height: 20px;
+  padding: 0;
+  position: relative;
+}
+.dd-handle {
+  background: #fff;
+  border: 1px solid #d7d8dd;
+  border-radius: .188em;
+  box-sizing: border-box;
+  display: block;
+  height: 30px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  cursor:move;
+}
+.dd-handle > span,
+.dd3-content > span {
+  float: right
+}
+.dd-handle:hover {
+  background-color: #fbfcfd;
+}
+.dd-item > button {
+  background: transparent;
+  border: 0 none;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  height: 2em;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 2em;
+  color: #d7d8dd;
+}
+.dd-item > button:before {
+  content: "+";
+  display: block;
+  position: absolute;
+  text-align: center;
+  text-indent: 0;
+  top: 50%;
+  margin-top: -7px;
+  width: 100%;
+}
+.dd-item > button[data-action="collapse"]:before {
+  content: "-";
+}
+.dd-placeholder,
+.dd-empty {
+  background: #f2fbff;
+  border: 1px dashed #d7d8dd;
+  box-sizing: border-box;
+  margin: 5px 0;
+  min-height: 30px;
+  padding: 0;
+}
+.dd-placeholder.large {
+  min-height: 60px;
+}
+.dd-empty {
+  background-color: #e5e5e5;
+  background-position: 0 0px, 30px 30px;
+  background-size: 60px 60px;
+  border: 1px dashed #bbb;
+  min-height: 60px;
+}
+.dd-dragel {
+  pointer-events: none;
+  position: absolute;
+  z-index: 9999;
+}
+.dd-dragel > .dd-item .dd-handle {
+  margin-top: 0;
+}
+.dd-dragel .dd-handle {
+  box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.dd-hover > .dd-handle {
+  background: #2ea8e5;
+}
+.dd3-content {
+  background: #fff;
+  border: 1px solid #daddde;
+  border-radius: .188em;
+  box-sizing: border-box;
+  display: block;
+  height: 30px;
+  margin: 5px 0;
+  padding: 5px 10px 5px 40px;
+  text-decoration: none;
+}
+.dd-dragel > .dd3-item > .dd3-content {
+  margin: 0;
+}
+.dd3-item > button {
+  margin-left: 30px;
+}
+.dd3-handle {
+  background: transparent;
+  border: 1px solid #aaa;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  cursor: move;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 100%;
+  top: 0;
+  white-space: nowrap;
+  width: 30px;
+}
+.dd3-handle:before {
+  color: #fff;
+  font-family: "WojoIcons";
+  content: "\e10e";
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  text-indent: 0;
+  top: 3px;
+  width: 100%;
+}
+.dd3-handle:hover {
+  background: #ddd;
+}
+.dd-handle {
+  border-color: #d7d8dd;
+  color: #576077;
+}
+.dd-handle:hover {
+  background-color: #fafafa;
+}
+.dd3-content:hover {
+  background-color: #fafafa;
+}
+.dd3-handle:before {
+  color: #626262;
+  font-family: "WojoIcons";
+  content: "\e10e";
+  font-size: 1em;
+  top: 50%;
+  margin-top: -.5em
+}
+.dd-placeholder {
+  background-color: #FFE4E4;
+  border-color: rgba(98, 98, 98, 0.35);
+}
+.dd-empty {
+  background: none repeat scroll 0 0 #f0f0f0;
+  border-color: rgba(98, 98, 98, 0.5);
+}
+.dd-item > button:before {
+  content: "\e051";
+  font-family: "WojoIcons";
+  font-size: .857em;
+}
+.dd-item > button[data-action="collapse"]:before {
+  content: "\e054";
+  font-family: "WojoIcons";
+}
+.dd-list.lagre .dd3-content,
+.dd-list.lagre .dd-handle {
+  min-height: 60px;
+}
+.dd-list.lagre .dd3-content {
+  padding: 20px 20px 15px 40px;
+}
+.dd-list.lagre ol .dd3-content {
+  padding: 15px 20px 15px 40px;
+}
+.dd-list.lagre .dd-item > button {
+  height: 60px;
+}
+.dd-list.lagre .dd3-content > span {
+  float: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -1.5em;
+  padding: 1em;
+}
+.dd-list.lagre .dd-item > button {
+  width: 4em;
+}
+/* == Tabs == */	
+ul.wojo.tabs {
+  width: 100%;
+  margin: 0;
+  width: auto;
+  border-radius: .188em .188em 0 0;
+  background-color: #1CA8DD;
+  box-shadow: inset 0 2px 1px 0 #31A2D3
+}
+ul.wojo.tabs.fixed {
+  position: absolute;
+  top: -1.063em;
+  right: -1.063em;
+  background-color: #EFEFEF;
+  border-radius: .183em 0 0 0;
+  box-shadow: inset 1px -1px 0 0 #daddde;
+}
+ul.wojo.tabs.fixed li a {
+  color: #1CA8DD;
+}
+ul.wojo.tabs,
+ul.wojo.tabs li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+ul.wojo.tabs li {
+  display: block;
+  float: left;
+  padding: .85em 0;
+  font-size: 1rem;
+}
+ul.wojo.tabs li a {
+  display: block;
+  box-shadow: inset -1px 0 0 0 rgba(0,0,0,0.2);
+  border-right: 1px solid rgba(0,0,0,0.1);
+  padding: 0 1em;
+  color: rgba(0,0,0,0.75)
+}
+ul.wojo.tabs li a .icon {
+  margin-right: .5em;
+}
+ul.wojo.tabs li a.last {
+  box-shadow: none;
+  border: 0;
+}
+ul.wojo.tabs li a.active,
+ul.wojo.tabs li a:hover {
+  color: rgba(0,0,0,1)
+}
+/* == Sizes == */
+.wojo.mini.list .item {
+  font-size: .7rem
+}
+.wojo.tiny.list .item {
+  font-size: .8125rem
+}
+.wojo.small.list .item {
+  font-size: .875rem
+}
+.wojo.list .item {
+  font-size: 1em
+}
+.wojo.large.list .item {
+  font-size: 1.125rem
+}
+.wojo.big.list .item {
+  font-size: 1.25rem
+}
+.wojo.huge.list .item {
+  font-size: 1.375rem
+}
+.wojo.massive.list .item {
+  font-size: 1.5rem
+}
+
+@media screen and (max-width:1024px) {
+ul.wojo.tabs.fixed {
+  top: auto;
+  bottom:-1em;
+  right:0;
+  border-radius:0;
+  box-shadow:0 0 0 2px #daddde;
+  background:#fff
+}
+ul.wojo.tabs.fixed li {
+    padding: 0.5em 0;
+}
+ul.wojo.tabs.fixed li a:last-child {
+    border-right: 0;
+    box-shadow: none;
+}
+}
+
+@media screen and (max-width:769px) {
+ul.wojo.tabs {
+  width: 100%;
+  position: relative;
+  margin-top: .5em;
+  width: auto;
+  left: auto;
+  right: auto;
+  bottom: 0;
+  border-radius: .188em;
+  background-color: #3BAFDA;
+  box-shadow: inset 0 2px 1px 0 #31A2D3
+}
+}

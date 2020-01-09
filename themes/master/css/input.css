@@ -1,0 +1,334 @@
+/* == Inputs == */
+.wojo.input {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgba(0, 0, 0, 0.87);
+}
+.wojo.input input {
+  margin: 0em;
+  max-width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 1.2142em;
+  font-family: inherit;
+  padding: .85em 1.2em;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #DADDDE;
+ color: #939599;
+  border-radius: .188em;
+  -webkit-transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
+  transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
+  box-shadow: none;
+}
+.wojo.inline.input input {
+  width:auto;
+}
+/* == Placeholder == */
+.wojo.input input::-webkit-input-placeholder {
+ color:#B4B4B4
+}
+.wojo.input input::-moz-placeholder {
+ color:#B4B4B4
+}
+.wojo.input input::-ms-input-placeholder {
+ color:#B4B4B4
+}
+/* == States == */
+.wojo.input input:active,
+.wojo.input.down input {
+  border-color: rgba(0, 0, 0, 0.3);
+  background: #fafafa;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: none;
+}
+/* == Loading == */
+.wojo.loading.input > .icon {
+  background: url(../images/loader-mini.gif) no-repeat 50% 50%
+}
+.wojo.loading.input > .icon:before,
+.wojo.loading.input > .icon:after {
+  display: none
+}
+/* == Focus == */
+.wojo.input.focus input,
+.wojo.input input:focus {
+  border-color: rgba(0,0,0,0.2);
+  color: rgba(0,0,0,0.85)
+}
+.wojo.input.focus input input::-webkit-input-placeholder, .wojo.input input:focus input::-webkit-input-placeholder {
+ color:#AAA
+}
+.wojo.input.focus input input::-moz-placeholder, .wojo.input input:focus input::-moz-placeholder {
+ color:#AAA
+}
+.wojo.input.focus input::-ms-input-placeholder, .wojo.input input:focus input::-ms-input-placeholder {
+ color:#AAA
+}
+/* == Error == */
+.wojo.input.error input {
+  background-color: #FFFAFA;
+  border-color: #E7BEBE;
+  color: #D95C5C
+}
+ .wojo.input.error input ::-webkit-input-placeholder {
+color:rgba(255,80,80,0.4)
+}
+ .wojo.input.error input ::-moz-placeholder {
+color:rgba(255,80,80,0.4)
+}
+ .wojo.input.error input :focus::-webkit-input-placeholder {
+color:rgba(255,80,80,0.7)
+}
+ .wojo.input.error input :focus::-moz-placeholder {
+color:rgba(255,80,80,0.7)
+}
+.wojo.input.error input :focus::-ms-input-placeholder {
+color:rgba(255,80,80,0.7)
+}
+
+/* == Variations == */
+.wojo.transparent.input input {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  padding: 0em !important;
+  box-shadow: none !important;
+}
+.wojo.transparent.icon.input > i.icon {
+  width: 1.1em;
+}
+.wojo.transparent.icon.input > input {
+  padding-left: 0em !important;
+  padding-right: 2em !important;
+}
+.wojo.transparent[class*="left icon"].input > input {
+  padding-left: 2em !important;
+  padding-right: 0em !important;
+}
+.wojo.transparent.inverted.input {
+  color: #ffffff;
+}
+.wojo.transparent.inverted.input input {
+  color: inherit;
+}
+.wojo.transparent.inverted.input input::-webkit-input-placeholder {
+ color: rgba(255, 255, 255, 0.5);
+}
+.wojo.transparent.inverted.input input::-moz-placeholder {
+ color: rgba(255, 255, 255, 0.5);
+}
+.wojo.transparent.inverted.input input::-ms-input-placeholder {
+ color: rgba(255, 255, 255, 0.5);
+}
+/* == Icon == */
+.wojo.icon.input > i.icon {
+  cursor: default;
+  position: absolute;
+  line-height: 1;
+  text-align: center;
+  top: 0px;
+  right: 0px;
+  margin: 0em;
+  height: 100%;
+  width: 2.67142857em;
+  opacity: 0.5;
+  border-radius: 0 .188em .188em 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.wojo.icon.input > i.icon:not(.link) {
+  pointer-events: none;
+}
+.wojo.icon.input input {
+  padding-right: 2.67142857em !important;
+}
+.wojo.icon.input > i.icon:before,
+.wojo.icon.input > i.icon:after {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  margin-top: -0.5em;
+}
+.wojo.icon.input > i.link.icon {
+  cursor: pointer;
+}
+.wojo.icon.input > i.circular.icon {
+  top: 0.35em;
+  right: 0.5em;
+}
+.wojo[class*="left icon"].input > i.icon {
+  right: auto;
+  left: 1px;
+  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
+}
+.wojo[class*="left icon"].input > i.circular.icon {
+  right: auto;
+  left: 0.5em;
+}
+.wojo[class*="left icon"].input > input {
+  padding-left: 2.67142857em !important;
+  padding-right: 1em !important;
+}
+.wojo.icon.input > input:focus ~ i.icon {
+  opacity: 1;
+}
+/* == Labeled == */
+.wojo.labeled.input > .label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: 0;
+  font-size: 1em;
+}
+.wojo.labeled.input > .label:not(.corner) {
+  padding-top: 0.78571429em;
+  padding-bottom: 0.78571429em;
+}
+.wojo.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > input {
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.wojo.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > .label {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.wojo[class*="right labeled"].input > input {
+  border-right: none;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.wojo[class*="right labeled"].input > .label {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.wojo.labeled.input .corner.label {
+  top: 1px;
+  right: 1px;
+  font-size: 0.64285714em;
+  border-radius: 0em 0.28571429rem 0em 0em;
+}
+.wojo[class*="corner labeled"]:not(.left).labeled.input input {
+  padding-right: 2.5em !important;
+}
+.wojo[class*="corner labeled"].icon.input:not(.left) > input {
+  padding-right: 3.25em !important;
+}
+.wojo[class*="corner labeled"].icon.input:not(.left) > .icon {
+  margin-right: 1.25em;
+}
+.wojo[class*="corner labeled"].left.labeled.input input {
+  padding-left: 2.5em !important;
+}
+.wojo[class*="corner labeled"].icon.input.left > input {
+  padding-left: 3.25em !important;
+}
+.wojo[class*="corner labeled"].icon.input.left > .icon {
+  margin-left: 1.25em;
+}
+.wojo.input > .wojo.corner.label {
+  top: 1px;
+  right: 1px;
+}
+.wojo.input > .wojo.left.corner.label {
+  right: auto;
+  left: 1px;
+}
+/* == Action == */
+.wojo.action.input > .button,
+.wojo.action.input > .buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.wojo.action.input > .button,
+.wojo.action.input > .buttons > .button {
+  padding-top: 0.78571429em;
+  padding-bottom: 0.78571429em;
+  margin: 0;
+}
+.wojo.action.input:not([class*="left action"]) > input {
+  border-right: none;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.wojo.action.input:not([class*="left action"]) > .dropdown,
+.wojo.action.input:not([class*="left action"]) > .button,
+.wojo.action.input:not([class*="left action"]) > .buttons > .button {
+  border-radius: 0px;
+}
+.wojo.action.input:not([class*="left action"]) > .dropdown:last-child,
+.wojo.action.input:not([class*="left action"]) > .button:last-child,
+.wojo.action.input:not([class*="left action"]) > .buttons:last-child > .button {
+  /*border-radius: 0px 0.28571429rem 0.28571429rem 0px;*/
+}
+.wojo[class*="left action"].input > .dropdown,
+.wojo[class*="left action"].input > .button,
+.wojo[class*="left action"].input > .buttons > .button {
+  border-radius: 0px;
+}
+.wojo[class*="left action"].input > .dropdown:first-child,
+.wojo[class*="left action"].input > .button:first-child,
+.wojo[class*="left action"].input > .buttons:first-child > .button {
+  border-radius: 0.28571429rem 0px 0px 0.28571429rem;
+}
+.wojo[class*="left action"].input > input {
+  border-left: none;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.wojo.inverted.input input {
+  border: none;
+}
+.wojo.fluid.input {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wojo.fluid.input > input {
+  width: 0px !important;
+}
+/* == Size == */
+
+.wojo.mini.input {
+  font-size: 0.71428571em;
+}
+.wojo.small.input {
+  font-size: 0.92857143em;
+}
+.wojo.input {
+  font-size: 1em;
+}
+.wojo.large.input {
+  font-size: 1.14285714em;
+}
+.wojo.big.input {
+  font-size: 1.28571429em;
+}
+.wojo.huge.input {
+  font-size: 1.42857143em;
+}
+.wojo.massive.input {
+  font-size: 1.71428571em;
+}

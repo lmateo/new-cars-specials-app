@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+# Imported Fonts
+--------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Antenna-Light';
+  src: url('light.ttf'),
+  url('light.ttf')  format('truetype'),
+  url('light.WOFF')  format('Woff'),
+  url('Antenna-Light.eot') format('embedded-opentype');  
+}
+@font-face { 
+  font-family: 'Antenna-Bold';
+  src: url('bold.ttf'),  
+  url('bold.ttf')  format('truetype'), 
+  url('bold.WOFF')  format('Woff'),
+  url('Antenna-Bold.eot') format('embedded-opentype');        
+}
+@font-face { 
+  font-family: 'Antenna-regular';
+  src: url('Regular.ttf'),  
+  url('Regular.ttf')  format('truetype'),
+  url('Antenna-Regular.eot') format('embedded-opentype');      
+}

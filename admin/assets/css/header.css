@@ -1,0 +1,119 @@
+/* == Header == */
+.wojo.header {
+  border: none;
+  margin: 1em 0em 1rem;
+  padding: 0em;
+  font-size: 1.33em;
+  line-height: 1.33;
+  font-family:'WojoSansExtraLight';
+}
+.wojo.header .sub.header {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0em;
+  padding: 0em;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.5);
+}
+.wojo.header .icon {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 0.5em;
+}
+.wojo.header .icon:only-child {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.wojo.header .content {
+  display: inline-block;
+  vertical-align: top;
+}
+.wojo.header .icon + .content {
+  padding-left: 0.5em;
+  display: table-cell;
+}
+.wojo.header:first-child {
+  margin-top: 0em;
+}
+.wojo.header:last-child {
+  margin-bottom: 0em;
+}
+.wojo.header + p {
+  margin-top: 0em;
+}
+/* == Page Headings == */
+h1.wojo.header,
+h1 {
+  min-height: 1rem;
+  line-height: 1.33;
+  font-size: 2.2rem;
+}
+h2.wojo.header,
+h2 {
+  line-height: 1;
+  font-size: 2rem;
+  font-family:'WojoSansRegular';
+  color: #3E6373;
+}
+h3.wojo.header,
+h3 {
+  line-height: 1.33;
+  font-size: 1.33rem;
+}
+h4.wojo.header,
+h4 {
+  line-height: 1.33;
+  font-size: 1.1rem;
+}
+h5.wojo.header,
+h5 {
+  line-height: 1.2;
+  font-size: 1rem;
+}
+/* == Content Headers == */
+.wojo.huge.header {
+  min-height: 1em;
+  font-size: 2em;
+}
+.wojo.large.header {
+  font-size: 1.75em;
+}
+.wojo.medium.header {
+  font-size: 1.33em;
+}
+.wojo.small.header {
+  font-size: 1.1em;
+}
+.wojo.tiny.header {
+  font-size: 1em;
+}
+/* == Types == */
+.wojo.icon.header {
+  display: inline-block;
+  text-align: center;
+}
+.wojo.icon.header .icon {
+  float: none;
+  display: block;
+  font-size: 3em;
+  margin: 0em auto 0.2em;
+  padding: 0em;
+}
+.wojo.icon.header .content {
+  display: block;
+}
+.wojo.icon.header .circular.icon,
+.wojo.icon.header .square.icon {
+  font-size: 2em;
+}
+.wojo.block.icon.header .icon {
+  margin-bottom: 0em;
+}
+.wojo.icon.header.aligned {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.wojo.disabled.header {
+  opacity: 0.5;
+}

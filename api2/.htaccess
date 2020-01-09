@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteBase   /api2/
+RewriteRule ^v2$ get-ncs-v2.php [L]
+
+
+
+

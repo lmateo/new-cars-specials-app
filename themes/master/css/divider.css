@@ -1,0 +1,196 @@
+/* == Divider == */
+.wojo.divider {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  line-height: 1;
+  height: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+.wojo.vertical.divider,
+.wojo.horizontal.divider {
+  position: absolute;
+  border: none;
+  height: 0;
+  margin: 0;
+  background-color: transparent;
+  font-size:.875rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.8)
+}
+/* == Vertical == */
+.wojo.vertical.divider {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  margin: 0 0 0 -3%;
+  width: 6%;
+  height: 50%;
+  line-height: 0;
+  padding: 0
+}
+.wojo.vertical.divider:before,
+.wojo.vertical.divider:after {
+  position: absolute;
+  left: 50%;
+  content: " ";
+  z-index: 3;
+  border-left: 1px solid rgba(0,0,0,0.1);
+  border-right: 1px solid rgba(255,255,255,0.8);
+  width: 0;
+  height: 80%
+}
+.wojo.vertical.divider:before {
+  top: -100%
+}
+.wojo.vertical.divider:after {
+  top: auto;
+  bottom: 0
+}
+/* == Horizontal == */
+.wojo.horizontal.divider {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 1rem 1.5rem;
+  height: auto;
+  padding: 0;
+  line-height: 1
+}
+.wojo.horizontal.divider:before,
+.wojo.horizontal.divider:after {
+  position: absolute;
+  content: " ";
+  z-index: 3;
+  width: 50%;
+  top: 50%;
+  height: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.8)
+}
+.wojo.horizontal.divider:before {
+  left: 0;
+  margin-left: -1.5rem
+}
+.wojo.horizontal.divider:after {
+  left: auto;
+  right: 0;
+  margin-right: -1.5rem
+}
+/* == Icon == */
+.wojo.divider > .icon {
+  margin: 0;
+  font-size: 1rem;
+  vertical-align: middle
+}
+/* == Variations == */
+.wojo.basic.divider {
+  margin:0
+}
+.wojo.double.divider {
+  border-top: 2px solid #E1E0E5;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.wojo.tripple.divider {
+  border-top: 3px solid rgba(0,0,0,0.1);
+  border-bottom: 3px solid rgba(255,255,255,0.8);
+}
+.wojo.quintuple.divider {
+  border-top: 5px solid rgba(0,0,0,0.1);
+  border-bottom: 5px solid rgba(255,255,255,0.8);
+}
+.wojo.fitted.divider {
+  margin-left:-1rem;
+  margin-right:-1rem;
+}
+.wojo.clearing.divider {
+  clear: both
+}
+.wojo.section.divider {
+  margin-top: 2rem;
+  margin-bottom: 2rem
+}
+.wojo.space.divider {
+  margin:0;
+  border:0;
+  height:1em;
+}
+.wojo.double.space.divider {
+  height:2em;
+}
+.wojo.tripple.space.divider {
+  height:3em;
+}
+.wojo.white.divider {
+  background-color: #fff;
+}
+.wojo.article.divider {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 1em;
+  background-color: #EFEFEF;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #DADDDE;
+  border-top: 1px solid #DADDDE;
+  box-shadow: 1px 0 0 0 #EFEFEF,-1px 0 0 0 #EFEFEF;
+}
+.wojo.split.divider {
+  height: 5px;
+  background-color: #DFE2E7;
+  border-bottom:1px solid #fff;
+  border-top:1px solid #D6D8DD;
+  border-radius: .250em;
+  box-shadow:inset 0 1px 1px 0 rgba(0,0,0,0.05);
+}
+.wojo.attached.divider {
+  margin-bottom:0;
+  margin-top:0
+}
+.wojo.top.attached.divider {
+  margin-top:0
+}
+.wojo.bottom.attached.divider {
+  margin-bottom:0
+}
+.wojo.divider.inverted {
+  color: #fff
+}
+.wojo.vertical.inverted.divider,
+.wojo.horizontal.inverted.divider {
+  color: rgba(255,255,255,0.9)
+}
+.wojo.divider.inverted,
+.wojo.divider.inverted:after,
+.wojo.divider.inverted:before {
+  border-top-color: #13283D;
+  border-bottom-color: rgba(255,255,255,0.1);
+  border-left-color: #13283D;
+  border-right-color: rgba(255,255,255,0.1)
+}
+.wojo.thin.divider {
+  margin:0;
+  border:0;
+  height:1px;
+  box-shadow:inset 0 1px 1px 0 rgba(255,255,255,0.5);
+}
+.wojo.separator {
+  height:1.5em;
+  width:1px;
+  background:#515461;
+  display:inline-block;
+  vertical-align:middle;
+  margin:0 1em;
+}

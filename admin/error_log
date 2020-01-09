@@ -1,0 +1,45 @@
+[07-Nov-2017 13:57:59 America/New_York] PHP Fatal error:  Uncaught Error: Class 'wSpecials' not found in /home/quirkspecials/public_html/quirkinventory/admin/init.php:55
+Stack trace:
+#0 /home/quirkspecials/public_html/quirkinventory/admin/index.php(19): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/quirkinventory/admin/init.php on line 55
+[07-Nov-2017 13:58:08 America/New_York] PHP Fatal error:  Uncaught Error: Class 'wSpecials' not found in /home/quirkspecials/public_html/quirkinventory/admin/init.php:55
+Stack trace:
+#0 /home/quirkspecials/public_html/quirkinventory/admin/index.php(19): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/quirkinventory/admin/init.php on line 55
+[07-Nov-2017 13:58:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'wSpecials' not found in /home/quirkspecials/public_html/quirkinventory/admin/init.php:55
+Stack trace:
+#0 /home/quirkspecials/public_html/quirkinventory/admin/index.php(19): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/quirkinventory/admin/init.php on line 55
+[07-Nov-2017 13:58:25 America/New_York] PHP Fatal error:  Uncaught Error: Class 'wSpecials' not found in /home/quirkspecials/public_html/quirkinventory/admin/init.php:55
+Stack trace:
+#0 /home/quirkspecials/public_html/quirkinventory/admin/index.php(19): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/quirkinventory/admin/init.php on line 55
+[07-Nov-2017 13:59:46 America/New_York] PHP Fatal error:  Uncaught Error: Class 'wSpecials' not found in /home/quirkspecials/public_html/quirkinventory/admin/init.php:55
+Stack trace:
+#0 /home/quirkspecials/public_html/quirkinventory/admin/index.php(19): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/quirkinventory/admin/init.php on line 55
+[17-Apr-2018 13:31:17 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:20 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:21 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:22 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:26 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:27 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:32 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:34 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:36 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:38 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:43 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:31:49 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[17-Apr-2018 13:32:03 UTC] PHP Fatal error:  Cannot declare class wSpecials, because the name is already in use in /home/quirkspecials/public_html/quirkinventory/lib/wspecials.class.php on line 16
+[22-May-2018 18:08:36 UTC] PHP Parse error:  syntax error, unexpected ''me' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/quirkspecials/public_html/quirkinventory/lib/content.class.php on line 1932
+[22-May-2018 18:09:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/quirkspecials/public_html/quirkinventory/lib/content.class.php on line 3647
+[22-May-2018 18:48:11 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/quirkspecials/public_html/quirkinventory/lib/content.class.php on line 2960
+[22-May-2018 18:48:14 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/quirkspecials/public_html/quirkinventory/lib/content.class.php on line 2960
+[22-May-2018 18:49:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/quirkspecials/public_html/quirkinventory/lib/content.class.php on line 2052
+[22-May-2018 18:49:33 UTC] PHP Parse error:  syntax error, unexpected ''<input type="text" class="cus' (T_ENCAPSED_AND_WHITESPACE) in /home/quirkspecials/public_html/quirkinventory/lib/content.class.php on line 3509
+[22-May-2018 19:02:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/quirkspecials/public_html/quirkinventory/lib/content.class.php on line 2052

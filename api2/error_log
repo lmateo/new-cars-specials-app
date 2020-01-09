@@ -1,0 +1,1285 @@
+[28-Jan-2016 18:37:17 UTC] PHP Fatal error:  Class 'ncsApi' not found in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 10
+[28-Jan-2016 18:37:34 UTC] PHP Fatal error:  Class 'quirk' not found in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 50
+[28-Jan-2016 18:42:22 UTC] PHP Warning:  require_once(/srv/www/lib/class.quirk.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/lib/class.customer.php on line 6
+[28-Jan-2016 18:42:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/srv/www/lib/class.quirk.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/lib/class.customer.php on line 6
+[28-Jan-2016 18:43:54 UTC] PHP Warning:  require_once(/srv/www/lib/class.quirk.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/lib/class.customer.php on line 6
+[28-Jan-2016 18:43:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/srv/www/lib/class.quirk.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/lib/class.customer.php on line 6
+[28-Jan-2016 18:45:06 UTC] PHP Warning:  mysql_connect(): Access denied for user 'phpweb'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/lib/class.quirk.php on line 79
+[28-Jan-2016 18:57:55 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 82
+[28-Jan-2016 18:57:57 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 82
+[28-Jan-2016 19:02:21 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 82
+[28-Jan-2016 19:02:53 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 125
+[28-Jan-2016 19:03:24 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 82
+[28-Jan-2016 19:06:15 UTC] PHP Warning:  mysql_connect(): Access denied for user 'phpweb'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/lib/class.quirk.php on line 79
+[28-Jan-2016 19:08:34 UTC] PHP Fatal error:  Call to undefined function fix() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 306
+[28-Jan-2016 19:09:14 UTC] PHP Fatal error:  Call to undefined function get_data() in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 206
+[28-Jan-2016 19:35:04 UTC] PHP Warning:  require_once(inc.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 19:35:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 19:35:07 UTC] PHP Warning:  require_once(inc.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 19:35:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 20:12:39 UTC] PHP Warning:  require_once(/include/inc.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 20:12:39 UTC] PHP Fatal error:  require_once(): Failed opening required '/include/inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 20:16:56 UTC] PHP Fatal error:  Call to undefined method ncsApi::_run_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 274
+[28-Jan-2016 20:29:21 UTC] PHP Fatal error:  Call to undefined function fix() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 316
+[28-Jan-2016 20:31:24 UTC] PHP Fatal error:  Call to undefined function get_data() in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 141
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[10-Nov-2016 05:50:08 America/Los_Angeles] PHP Fatal error:  Class 'ncpsApi' not found in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 19
+[28-Nov-2016 17:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php:6
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(6): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php on line 6
+[28-Nov-2016 17:46:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php:6
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(6): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php on line 6
+[28-Nov-2016 17:48:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php:6
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(6): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php on line 6
+[28-Nov-2016 17:48:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php:6
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(6): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php on line 6
+[28-Nov-2016 17:48:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php:6
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(6): require_once()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php on line 6
+[28-Nov-2016 18:01:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:02:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:79
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(285): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(185): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(140): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 79
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:82
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 82
+[28-Nov-2016 18:09:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:81
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(287): ncsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(187): ncsApi->doNcsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(142): ncsApi->doNcsSearch()
+#3 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:09:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:09:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:09:57 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:12:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:12:36 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 81
+[28-Nov-2016 18:14:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 49
+[28-Nov-2016 18:21:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:290
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(188): ncsApi->doNcsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 290
+[28-Nov-2016 18:21:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:290
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(188): ncsApi->doNcsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 290
+[28-Nov-2016 18:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:290
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(188): ncsApi->doNcsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 290
+[28-Nov-2016 18:29:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:305
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 305
+[28-Nov-2016 18:30:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:308
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 308
+[28-Nov-2016 18:32:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php:21
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php(140): get_data('quirk', 'SELECT name FRO...')
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(324): get_make_name('139')
+#2 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#3 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#4 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#5 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/inc.functions.makes_models.inc.php on line 21
+[28-Nov-2016 18:33:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:356
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 356
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:361
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(189): ncsApi->getNcsSearchReponse()
+#1 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(143): ncsApi->doNcsSearch()
+#2 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 361
+[28-Nov-2016 18:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php:424
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/api/class.ncsApi.php(150): ncsApi->sync_wp_web_specials()
+#1 /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php(12): ncsApi->handleRequest()
+#2 {main}
+  thrown in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 424
